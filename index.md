@@ -2,15 +2,25 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
 
-
-<!-- Link Swiper's CSS -->
+<!-- Swiper JS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
-<!-- Demo styles -->
 <style>
+.page-content h2 {
+  margin:25px 0 15px;
+  font-size:14px;
+  font-weight:500;
+  letter-spacing:-1.4px;
+  text-align:center;
+  color:#313643;
+}
+.page-content h2 strong {
+  color:#f4512c;
+}
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -35,32 +45,153 @@ layout: home
   -webkit-align-items: center;
   align-items: center;
 }
+.swiper-slide:before {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.25);
+}
+.slide-message {
+  position:absolute;
+  top:50%;
+  left:0;
+  width:100%;
+  color:#fff;
+  margin:-40px 0 0;
+}
+.slide-message h2 {
+  font-size:10px;
+  letter-spacing:-1px;
+}
+.slide-message h2 strong {
+  display:block;
+  font-size:40px;
+  font-weight:100;
+  letter-spacing:-1.5px;
+  color:#f4512c;
+  text-align:center;
+}
+.slide-message p {
+  font-size:10px;
+  letter-spacing:-1px;
+}
+.featured-links {
+  background-color:#313643;
+  font-size:0;
+  text-align:center;
+  white-space:nowrap;
+}
+.featured-links li {
+  zoom:1;
+  display:inline-block;
+  position:relative;
+  width:66px;
+  font-size:8px;
+  vertical-align:middle;
+}
+.featured-links li:before {
+  content:"";
+  display:block;
+  position:absolute;
+  top:20px;
+  left:0;
+  bottom:20px;
+  width:1px;
+  background-color:rgba(216, 216, 216, 0.2);
+}
+.featured-links li:first-child:before {
+  display:none;
+}
+.featured-links li a {
+  display:block;
+  padding:12px 0;
+  color:#fff;
+}
+.featured-links li img {
+  display:block;
+  margin:0 auto 7px;
+  border-radius:5px;
+}
+.featured-links li span {
+  display:block;
+  opacity:0.7;
+  font-size:8px;
+  font-weight:500;
+  line-height:125%;
+  letter-spacing:-0.8px;
+}
+.featured-review {
+  overflow:auto;
+  width:auto;
+  margin:15px 0;
+  padding:0 25px;
+  white-space:nowrap;
+  -webkit-overflow-scrolling:touch;
+}
+.featured-review dl {
+  zoom:1;
+  display:inline-block;
+  width:150px;
+  margin-right:15px;
+  vertical-align:top;
+}
+.featured-review dl dt img {
+  width:150px;
+  height:90px;
+  object-fit:cover;
+}
+.featured-review dl dd {}
+.featured-review dl dd strong {
+  margin-bottom:2px;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:-1px;
+  color:#313643;
+}
+.featured-review dl dd p {
+  font-size:8px;
+  letter-spacing:-0.8px;
+  color:#666;
+  white-space:normal;
+}
 </style>
 
-<!-- Swiper -->
 <div class="swiper-container">
-<div class="swiper-wrapper">
-  <div class="swiper-slide"><img src="/assets/sample1.jpg" alt=""></div>
-  <div class="swiper-slide"><img src="/assets/sample1.jpg" alt=""></div>
-  <div class="swiper-slide"><img src="/assets/sample1.jpg" alt=""></div>
-  <div class="swiper-slide"><img src="/assets/sample1.jpg" alt=""></div>
-  <div class="swiper-slide"><img src="/assets/sample1.jpg" alt=""></div>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="https://images.unsplash.com/photo-1486049252259-45184399c5b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+      <div class="slide-message">
+        <h2>비타민한의원의 특별한 <strong>위·대장클리닉</strong></h2>
+        <p>한의학, 기능의 학적 접근을 통해   근본적인 원인을 해결합니다</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.unsplash.com/photo-1445527815219-ecbfec67492e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+      <div class="slide-message">
+        <h2>비타민한의원의 특별한 <strong>위·대장클리닉</strong></h2>
+        <p>한의학, 기능의 학적 접근을 통해   근본적인 원인을 해결합니다</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.unsplash.com/photo-1557825835-70d97c4aa567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+      <div class="slide-message">
+        <h2>비타민한의원의 특별한 <strong>위·대장클리닉</strong></h2>
+        <p>한의학, 기능의 학적 접근을 통해   근본적인 원인을 해결합니다</p>
+      </div>
+    </div>
+  </div>
+  <!-- Add Pagination -->
+  <!-- <div class="swiper-pagination"></div> -->
+  <!-- Add Arrows -->
+  <!-- <div class="swiper-button-next"></div> -->
+  <!-- <div class="swiper-button-prev"></div> -->
 </div>
-<!-- Add Pagination -->
-<div class="swiper-pagination"></div>
-<!-- Add Arrows -->
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
-</div>
-
-<!-- Swiper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-
-<!-- Initialize Swiper -->
 <script>
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  spaceBetween: 30,
   loop: true,
   pagination: {
     el: '.swiper-pagination',
@@ -72,3 +203,115 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 </script>
+
+<ul class="featured-links">
+<li>
+  <a href="#">
+    <img src="/assets/icon-featured-1.svg" alt="">
+    <span>과민성<br>대장증후군</span>
+  </a>
+</li>
+<li>
+  <a href="#">
+    <img src="/assets/icon-featured-2.svg" alt="">
+    <span>청소년 클리닉</span>
+  </a>
+</li>
+<li>
+  <a href="#">
+    <img src="/assets/icon-featured-3.svg" alt="">
+    <span>소화기 클리닉</span>
+  </a>
+</li>
+<li>
+  <a href="#">
+    <img src="/assets/icon-featured-4.svg" alt="">
+    <span>검사안내</span>
+  </a>
+</li>
+<li>
+  <a href="#">
+    <img src="/assets/icon-featured-5.svg" alt="">
+    <span>진료안내</span>
+  </a>
+</li>
+</ul>
+
+<h2><strong>비타민한의원</strong>의 생생한 치료후기</h2>
+<div class="featured-review">
+  <dl>
+  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
+  <dd>
+    <strong>담적증! 증상 치료 한달차</strong>
+    <p>실제 내원한 환자분들께 앞으로 치료 계획을 설명하는 영상입니다. 식단, 생활관리, 약 등등 전반적인 모든 것을 알 수 있습니다. 검 ...</p>
+  </dd>
+  </dl>
+  <dl>
+  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
+  <dd>
+    <strong>담적증! 증상 치료 한달차</strong>
+    <p>실제 내원한 환자분들께 앞으로 치료 계획을 설명하는 영상입니다. 식단, 생활관리, 약 등등 전반적인 모든 것을 알 수 있습니다. 검 ...</p>
+  </dd>
+  </dl>
+  <dl>
+  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
+  <dd>
+    <strong>담적증! 증상 치료 한달차</strong>
+    <p>실제 내원한 환자분들께 앞으로 치료 계획을 설명하는 영상입니다. 식단, 생활관리, 약 등등 전반적인 모든 것을 알 수 있습니다. 검 ...</p>
+  </dd>
+  </dl>
+</div>
+
+<style>
+.detect-mine {
+  position:relative;
+  height:85px;
+  padding:15px 25px;
+  background-image:linear-gradient(76deg, #f4512c, #f4512c 50%, #ffb800);
+}
+.detect-mine h2 {
+  margin:0;
+  font-size:22px;
+  font-weight:300;
+  line-height:120%;
+  letter-spacing:-2.2px;
+  color:#fff;
+  text-align:left;
+}
+.detect-mine button {
+  position:absolute;
+  right:25px;
+  bottom:15px;
+  height:30px;
+  padding:0 10px;
+  border-radius:15px;
+  border:none;
+  background-color:#fff;
+  color:#f4512c;
+}
+</style>
+<div class="detect-mine">
+  <h2>난<br>어떤 질환일까?</h2>
+  <button>나의질환 알아보기</button>
+</div>
+
+<div class="featured-review">
+  <dl>
+  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
+  <dd>
+    <strong>담적증! 증상 치료 한달차</strong>
+  </dd>
+  </dl>
+  <dl>
+  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
+  <dd>
+    <strong>담적증! 증상 치료 한달차</strong>
+  </dd>
+  </dl>
+  <dl>
+  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
+  <dd>
+    <strong>담적증! 증상 치료 한달차</strong>
+  </dd>
+  </dl>
+</div>

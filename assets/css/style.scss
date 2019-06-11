@@ -4,35 +4,20 @@
 
 @import "minima";
 
-.trigger ul {
-  z-index:1000;
-  position:relative;
+* {
+  margin:0;
+  padding:0;
+}
+p, ul, ol {
   margin:0;
 }
-.trigger ul li {
-  list-style:none;
+.page-content {
+  padding:0;
 }
-.trigger > ul > li {
-  display:inline-block;
-  position:relative;
-  margin-left:10px;
+.wrapper {
+  max-width:-webkit-calc(980px - (30px * 2));
+  max-width:calc(980px - (30px * 2));
 }
-.trigger > ul > li > ul {
-  display:none;
-  position:absolute;
-  top:100%;
-  right:0;
-  line-height:180%;
-  border:1px solid #e8e8e8;
-  background-color:#fff;
-}
-.trigger > ul > li:hover > ul {
-  display:block;
-}
-.trigger > ul > li > ul > li {
-  white-space:nowrap;
-}
-.trigger > ul > li > ul > li > a {
-  display:block;
-  padding:0 10px;
+.page-content .wrapper {
+  padding:0;
 }

@@ -9,24 +9,5 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <!-- <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script> -->
-  <!-- <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script> -->
-  <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-       https://firebase.google.com/docs/web/setup#config-web-app -->
-  <script>
-  // Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDcBWCbA_228fMSAmP0xgSGYZ7q7L4SHXw",
-    authDomain: "vitamin-e8cce.firebaseapp.com",
-    databaseURL: "https://vitamin-e8cce.firebaseio.com",
-    projectId: "vitamin-e8cce",
-    storageBucket: "vitamin-e8cce.appspot.com",
-    messagingSenderId: "95928279193",
-    appId: "1:95928279193:web:492fabe529a68321"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  </script>
+  {%- include firebase.html -%}
 </head>
