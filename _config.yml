@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 비타민한의원
-email: help@vitamin.hospital
+logo: /assets/logo-default.svg
+email: vitagn@vitahani.com
 description: >- # this means to ignore newlines until "baseurl:"
   서울특별시 서초구 강남대로 341 삼원빌딩 5층 │ TEL : 02-2088-1220
   의료기관명 : 바이플랜한의원 │ 사업자 등록번호 : 874-91-00388 │ 대표자 : 김병일외1명
