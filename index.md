@@ -114,7 +114,6 @@ layout: default
 .featured-links li img {
   display:block;
   margin:0 auto 7px;
-  border-radius:5px;
 }
 .featured-links li span {
   display:block;
@@ -142,6 +141,7 @@ layout: default
 .featured-review dl dt img {
   width:150px;
   height:90px;
+  border-radius:5px;
   object-fit:cover;
 }
 .featured-review dl dd {}
