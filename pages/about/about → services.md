@@ -33,9 +33,9 @@ h2 {
   </p>
 </div>
 
-<div style="margin:25px 0">
+<figure>
   <img src="https://via.placeholder.com/1920x1080?text=Video Embed" alt="">
-</div>
+</figure>
 
 <div class="content-sculptpost">
   <h3>비타민 한의원이 특별한 이유</h3>

@@ -10,75 +10,6 @@ layout: default
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
 <style>
-.page-content h2 {
-  margin:25px 0 15px;
-  font-size:14px;
-  font-weight:500;
-  letter-spacing:-1.4px;
-  text-align:center;
-  color:#313643;
-}
-.page-content h2 strong {
-  color:#f4512c;
-}
-.swiper-container {
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.swiper-slide:before {
-  content:"";
-  display:block;
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background-color:rgba(0,0,0,0.25);
-}
-.slide-message {
-  position:absolute;
-  top:50%;
-  left:0;
-  width:100%;
-  color:#fff;
-  margin:-40px 0 0;
-}
-.slide-message h2 {
-  font-size:10px;
-  letter-spacing:-1px;
-}
-.slide-message h2 strong {
-  display:block;
-  font-size:40px;
-  font-weight:100;
-  letter-spacing:-1.5px;
-  color:#f4512c;
-  text-align:center;
-}
-.slide-message p {
-  font-size:10px;
-  letter-spacing:-1px;
-}
 .featured-links {
   background-color:#313643;
   font-size:0;
@@ -160,6 +91,66 @@ layout: default
 }
 </style>
 
+<style>
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide:before {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.25);
+}
+.slide-message {
+  position:absolute;
+  top:50%;
+  left:0;
+  width:100%;
+  color:#fff;
+  margin:-40px 0 0;
+}
+.slide-message h2 {
+  font-size:10px;
+  letter-spacing:-1px;
+}
+.slide-message h2 strong {
+  display:block;
+  font-size:40px;
+  font-weight:100;
+  letter-spacing:-1.5px;
+  color:#f4512c;
+  text-align:center;
+}
+.slide-message p {
+  font-size:10px;
+  letter-spacing:-1px;
+}
+</style>
 <div class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
@@ -237,7 +228,7 @@ var swiper = new Swiper('.swiper-container', {
 </li>
 </ul>
 
-<h2><strong>비타민한의원</strong>의 생생한 치료후기</h2>
+<h3><strong>비타민한의원</strong>의 생생한 치료후기</h3>
 <div class="featured-review">
   <dl>
   <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
@@ -269,7 +260,7 @@ var swiper = new Swiper('.swiper-container', {
   padding:15px 25px;
   background-image:linear-gradient(76deg, #f4512c, #f4512c 50%, #ffb800);
 }
-.detect-mine h2 {
+.detect-mine h3 {
   margin:0;
   font-size:22px;
   font-weight:300;
@@ -291,7 +282,7 @@ var swiper = new Swiper('.swiper-container', {
 }
 </style>
 <div class="detect-mine">
-  <h2>난<br>어떤 질환일까?</h2>
+  <h3>난<br>어떤 질환일까?</h3>
   <button>나의질환 알아보기</button>
 </div>
 
@@ -315,3 +306,42 @@ var swiper = new Swiper('.swiper-container', {
   </dd>
   </dl>
 </div>
+
+<style>
+.home-banners {
+  margin:25px;
+}
+.home-banners a {
+  display:block;
+  margin-top:8px;
+}
+.home-banners a:first-child {
+  margin-top:0;
+}
+.home-banners img {
+  display:block;
+  width:100%;
+}
+</style>
+<h3><strong>비타민한의원</strong>의 다양한 소식들</h3>
+<div id="banners" class="home-banners"></div>
+<script>
+app.content.get({
+  schemaKey: 'banners',
+  orderByChild: 'updated',
+  populate: true
+}).then(function (data) {
+  Object.keys(data).forEach(function (key) {
+    var banner = data[key];
+    var image = (banner.image[0] ? banner.image[0].url : null);
+    var title = banner.title;
+    var url = banner.url;
+    var markupSrc = [
+      '<a href="' + url +'">',
+      '<img src="' + image + '" alt="' + title + '">',
+      '</a>'
+    ];
+    $('#banners').append(markupSrc.join(''));
+  });
+});
+</script>

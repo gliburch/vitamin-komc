@@ -4,7 +4,7 @@
 <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
-<script src="https://unpkg.com/flamelink"></script>
+<script src="https://cdn.jsdelivr.net/npm/flamelink/flamelink.js"></script>
 <script>
 // Firebase configuration
 var firebaseConfig = {
@@ -17,5 +17,15 @@ var firebaseConfig = {
   appId: "1:517624382076:web:a48e9e2ab82aa9c8"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+var firebaseApp = firebase.initializeApp(firebaseConfig);
+// Initialize Firebase > Firestore
+var db = firebase.firestore();
+// Initialize Firebase + Flamelink (3rd party)
+var app = flamelink({
+  firebaseApp: firebaseApp, // required
+  dbType: 'cf', // can be either 'rtdb' or 'cf' for Realtime DB or Cloud Firestore,
+  // env: 'production', // optional, default shown
+  // locale: 'en-US', // optional, default shown
+  // precache: true // optional, default shown. Currently it only precaches "schemas" for better performance
+});
 </script>
