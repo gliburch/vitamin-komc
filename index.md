@@ -21,64 +21,6 @@ layout: default
 .page-content h2 strong {
   color:#f4512c;
 }
-.swiper-container {
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.swiper-slide:before {
-  content:"";
-  display:block;
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background-color:rgba(0,0,0,0.25);
-}
-.slide-message {
-  position:absolute;
-  top:50%;
-  left:0;
-  width:100%;
-  color:#fff;
-  margin:-40px 0 0;
-}
-.slide-message h2 {
-  font-size:10px;
-  letter-spacing:-1px;
-}
-.slide-message h2 strong {
-  display:block;
-  font-size:40px;
-  font-weight:100;
-  letter-spacing:-1.5px;
-  color:#f4512c;
-  text-align:center;
-}
-.slide-message p {
-  font-size:10px;
-  letter-spacing:-1px;
-}
 .featured-links {
   background-color:#313643;
   font-size:0;
@@ -160,6 +102,66 @@ layout: default
 }
 </style>
 
+<style>
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide:before {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.25);
+}
+.slide-message {
+  position:absolute;
+  top:50%;
+  left:0;
+  width:100%;
+  color:#fff;
+  margin:-40px 0 0;
+}
+.slide-message h2 {
+  font-size:10px;
+  letter-spacing:-1px;
+}
+.slide-message h2 strong {
+  display:block;
+  font-size:40px;
+  font-weight:100;
+  letter-spacing:-1.5px;
+  color:#f4512c;
+  text-align:center;
+}
+.slide-message p {
+  font-size:10px;
+  letter-spacing:-1px;
+}
+</style>
 <div class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
@@ -315,3 +317,42 @@ var swiper = new Swiper('.swiper-container', {
   </dd>
   </dl>
 </div>
+
+<style>
+.home-banners {
+  margin:25px;
+}
+.home-banners a {
+  display:block;
+  margin-top:8px;
+}
+.home-banners a:first-child {
+  margin-top:0;
+}
+.home-banners img {
+  display:block;
+  width:100%;
+}
+</style>
+<h2><strong>비타민한의원</strong>의 다양한 소식들</h2>
+<div id="banners" class="home-banners"></div>
+<script>
+app.content.get({
+  schemaKey: 'banners',
+  orderByChild: 'updated',
+  populate: true
+}).then(function (data) {
+  Object.keys(data).forEach(function (key) {
+    var banner = data[key];
+    var image = (banner.image[0] ? banner.image[0].url : null);
+    var title = banner.title;
+    var url = banner.url;
+    var markupSrc = [
+      '<a href="' + url +'">',
+      '<img src="' + image + '" alt="' + title + '">',
+      '</a>'
+    ];
+    $('#banners').append(markupSrc.join(''));
+  });
+});
+</script>
