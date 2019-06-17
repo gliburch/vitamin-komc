@@ -228,7 +228,7 @@ var swiper = new Swiper('.swiper-container', {
 </li>
 </ul>
 
-<h3><strong>비타민한의원</strong>의 생생한 치료후기</h3>
+<h3 style="text-align:center"><strong>비타민한의원</strong>의 생생한 치료후기</h3>
 <div class="featured-review">
   <dl>
   <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
@@ -323,7 +323,7 @@ var swiper = new Swiper('.swiper-container', {
   width:100%;
 }
 </style>
-<h3><strong>비타민한의원</strong>의 다양한 소식들</h3>
+<h3 style="text-align:center"><strong>비타민한의원</strong>의 다양한 소식들</h3>
 <div id="banners" class="home-banners"></div>
 <script>
 app.content.get({

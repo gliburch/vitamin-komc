@@ -15,7 +15,7 @@ permalink: /irritable-bowel-syndrome/gas
   <img src="/assets/20190617041610.jpg" alt="">
 </figure>
 
-<h3>아픈 것과는 다른 고통, 가스</h3>
+<h3 style="text-align:center">아픈 것과는 다른 고통, 가스</h3>
 
 <p>아픈 것은 아니지만 소화도 안되고 더부룩하고 배에 가스가 가득차서 힘들어하시는 분들이 많습니다. 하루 종일 답답하고 차라리 어떻게든 내보내버리면 좋겠는데 힘만 들고, 남보기에도 좋지 않아 이것 저것 좋다는 것 먹어봐도 뾰족한 수가 없으셨죠? 병원에 가도 특별한 병은 찾아내지 못하는 경우가 대부분이고요.</p>
 
@@ -33,7 +33,7 @@ permalink: /irritable-bowel-syndrome/gas
   </p>
 </div>
 
-<h3>장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
+<h3 style="text-align:center">장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
 
 <figure>
   <img src="/assets/img-podium-bowels.jpg" alt="">
@@ -61,7 +61,7 @@ permalink: /irritable-bowel-syndrome/gas
   <p>직접적인 장 운동 정상화로 가스 조절은 물론,<br>위 up 과 뇌 up 을 통해 더욱 치료 효과를 강하고 오래 지속되게 합니다</p>
 </div>
 
-<h3>이렇게 해결합니다</h3>
+<h3 style="text-align:center">이렇게 해결합니다</h3>
 
 <div class="content-casecard">
   <figure><img src="/assets/20190617103735.jpg" alt=""></figure>
@@ -90,7 +90,7 @@ permalink: /irritable-bowel-syndrome/gas
 
 <hr>
 
-<h3>직접 <strong>치료 후기와 치료사례</strong>를 살펴보세요!</h3>
+<h3 style="text-align:center">직접 <strong>치료 후기와 치료사례</strong>를 살펴보세요!</h3>
 
 <figure>
   <img src="https://via.placeholder.com/1920x1080?text=Video Embed" alt="">
