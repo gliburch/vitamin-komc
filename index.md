@@ -10,17 +10,6 @@ layout: default
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 
 <style>
-.page-content h2 {
-  margin:25px 0 15px;
-  font-size:14px;
-  font-weight:500;
-  letter-spacing:-1.4px;
-  text-align:center;
-  color:#313643;
-}
-.page-content h2 strong {
-  color:#f4512c;
-}
 .featured-links {
   background-color:#313643;
   font-size:0;
@@ -239,7 +228,7 @@ var swiper = new Swiper('.swiper-container', {
 </li>
 </ul>
 
-<h2><strong>비타민한의원</strong>의 생생한 치료후기</h2>
+<h3><strong>비타민한의원</strong>의 생생한 치료후기</h3>
 <div class="featured-review">
   <dl>
   <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
@@ -271,7 +260,7 @@ var swiper = new Swiper('.swiper-container', {
   padding:15px 25px;
   background-image:linear-gradient(76deg, #f4512c, #f4512c 50%, #ffb800);
 }
-.detect-mine h2 {
+.detect-mine h3 {
   margin:0;
   font-size:22px;
   font-weight:300;
@@ -293,7 +282,7 @@ var swiper = new Swiper('.swiper-container', {
 }
 </style>
 <div class="detect-mine">
-  <h2>난<br>어떤 질환일까?</h2>
+  <h3>난<br>어떤 질환일까?</h3>
   <button>나의질환 알아보기</button>
 </div>
 
@@ -334,7 +323,7 @@ var swiper = new Swiper('.swiper-container', {
   width:100%;
 }
 </style>
-<h2><strong>비타민한의원</strong>의 다양한 소식들</h2>
+<h3><strong>비타민한의원</strong>의 다양한 소식들</h3>
 <div id="banners" class="home-banners"></div>
 <script>
 app.content.get({
