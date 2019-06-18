@@ -6,6 +6,4 @@ title: 지점안내
 permalink: /about/branches
 ---
 
-![](/assets/sample2.png)
-
-Hello World
+<h2>지점안내</h2>

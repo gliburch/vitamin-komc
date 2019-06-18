@@ -6,6 +6,4 @@ title: 치료후기
 permalink: /about/reviews
 ---
 
-![](/assets/sample2.png)
-
-Hello World
+<h2>치료후기</h2>

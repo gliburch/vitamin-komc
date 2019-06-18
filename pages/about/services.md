@@ -6,16 +6,6 @@ title: 진료안내
 permalink: /about/services
 ---
 
-<style>
-h2 {
-  margin:25px 0;
-  font-size:20px;
-  letter-spacing:-2px;
-  text-align:center;
-  color:#000;
-}
-</style>
-
 <h2>진료안내</h2>
 
 <div class="content-intro">

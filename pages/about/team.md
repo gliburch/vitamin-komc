@@ -16,6 +16,7 @@ permalink: /about/team/lee-jin-won
   font-size:24px;
   letter-spacing:-2.4px;
   color:#000;
+  text-align:left;
 }
 .member-name small {
   zoom:1;
