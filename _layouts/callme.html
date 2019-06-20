@@ -1,0 +1,128 @@
+<style>
+.callme {
+  background-image:linear-gradient(76deg, #f4512c, #f4512c 50%, #ffb800);
+  color:#fff;
+}
+.callme form {
+  margin:0 25px;
+  padding:25px 0 50px;
+}
+.callme h3 {
+  margin-bottom:10px;
+  font-size:22px;
+  font-weight:300;
+  line-height:120%;
+  letter-spacing:-2.2px;
+  color:#fff;
+  text-align:left;
+}
+.callme p {
+  margin-top:8px;
+}
+.callme a {
+  color:#fff;
+}
+.callme label input {
+  vertical-align:middle;
+  background-color:#fff;
+}
+.callme label a {
+  text-decoration:underline;
+}
+.callme fieldset {
+  margin:15px 0 20px;
+  border:none;
+}
+.callme select {
+  display:block;
+  padding:8px;
+  border-radius:5px;
+  border:none;
+  background:#fff url(/assets/icon-toggle-down.svg) no-repeat 95% 50%;
+  box-sizing:border-box;
+  font-size:14px;
+  -webkit-appearance:none;
+}
+.callme input[type="tel"],
+.callme input[type="text"] {
+  display:block;
+  width:100%;
+  margin-top:10px;
+  padding:8px;
+  border-radius:5px;
+  border:none;
+  background-color:#fff;
+  box-sizing:border-box;
+  font-size:14px;
+}
+.callme button {
+  width:180px;
+  height:40px;
+  margin-top:15px;
+  padding:0 10px;
+  border-radius:5px;
+  border:none;
+  background-color:#fff;
+  color:#f4512c;
+  font-size:14px;
+  cursor:pointer;
+}
+</style>
+<div class="callme">
+  <form>
+    <h3>빠른 상담 신청</h3>
+    <p>연락처를 남겨주시면<br>빠르고 친절하게 상담해드리겠습니다.</p>
+    <p>바로 통화를 원하시면 전화주세요.</p>
+    <fieldset>
+      <select name="branch" style="width:180px">
+      <option value="">지점을 선택해주세요</option>
+      <option value="강남점">강남점</option>
+      <option value="노원점">노원점</option>
+      </select>
+      <input type="text" name="mentee" placeholder="성함을 입력해주세요">
+      <input type="tel" name="tel" placeholder="전화번호를 입력해주세요">
+    </fieldset>
+    <p>
+      <label>
+        <input type="checkbox" name="agreement">
+        <a href="#">개인정보 수집</a>에 동의합니다.
+      </label>
+    </p>
+    <button type="submit"><strong>연락처 남기기</strong></button> 
+  </form>
+</div>
+<script>
+$('.callme form').on('submit', function(event) {
+  event.preventDefault();
+  var agreement = $('input[name="agreement"]').prop('checked');
+  var params = {}
+  params.branch = $('select[name="branch"]').val();
+  params.mentee = $('input[name="mentee"]').val().trim();
+  params.tel = String($('input[name="tel"]').val().trim()).replace(/\D/g, '');
+  if (!params.branch || params.branch.length <= 0) {
+    alert('지점을 선택해주세요.');
+    return false;
+  }
+  if (!params.mentee) {
+    alert('성함을 확인해주세요.');
+    return false;
+  }
+  if (!params.tel) {
+    alert('전화번호를 확인해주세요.');
+    return false;
+  }
+  if (!agreement) {
+    alert('개인정보 수집에 동의를 확인해주세요.');
+    return false;
+  }
+  app.content.add({
+    schemaKey: 'callme',
+    data: params
+  })
+  .then(function () {
+    alert('상담이 접수되었습니다.\n빠른 시간 내에 답변 드리겠습니다.');
+    $('input[name="mentee"]').val('');
+    $('input[name="tel"]').val('');
+  })
+})
+</script>
