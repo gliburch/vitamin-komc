@@ -11,6 +11,7 @@ layout: default
 
 <style>
 .featured-links {
+  overflow:hidden;
   background-color:#313643;
   font-size:0;
   text-align:center;
@@ -195,6 +196,7 @@ var swiper = new Swiper('.swiper-container', {
 });
 </script>
 
+<!-- 퀵링크 -->
 <ul class="featured-links">
 <li>
   <a href="#">
@@ -228,6 +230,7 @@ var swiper = new Swiper('.swiper-container', {
 </li>
 </ul>
 
+<!-- 후기 -->
 <h3 style="text-align:center"><strong>비타민한의원</strong>의 생생한 치료후기</h3>
 <div class="featured-review">
   <dl>
@@ -253,6 +256,7 @@ var swiper = new Swiper('.swiper-container', {
   </dl>
 </div>
 
+<!-- 질환 찾기 -->
 <style>
 .detect-mine {
   position:relative;
@@ -261,7 +265,6 @@ var swiper = new Swiper('.swiper-container', {
   background-image:linear-gradient(76deg, #f4512c, #f4512c 50%, #ffb800);
 }
 .detect-mine h3 {
-  margin:0;
   font-size:22px;
   font-weight:300;
   line-height:120%;
@@ -307,6 +310,7 @@ var swiper = new Swiper('.swiper-container', {
   </dl>
 </div>
 
+<!-- 배너 -->
 <style>
 .home-banners {
   margin:25px;
