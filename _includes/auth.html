@@ -120,7 +120,7 @@ function tryLogin (email, password, successCallback, failCallback) {
       firebase.auth().onAuthStateChanged(function (user) {
         console.log(user);
       });
-      successCallback();
+      successCallback(response);
     })
     .catch(function (error) {
       var errorCode = error.code;
@@ -134,14 +134,14 @@ function tryLogin (email, password, successCallback, failCallback) {
       } else {
         alert(errorMessage);
       }
-      failCallback();
+      failCallback(error);
     });
 }
 
 function tryJoin (email, password, successCallback, failCallback) {
   firebase.auth().createUserWithEmailAndPassword(email, password)
     .then(function (response) {
-      successCallback();
+      successCallback(response);
     })
     .catch(function (error) {
       var errorCode = error.code;
@@ -151,7 +151,7 @@ function tryJoin (email, password, successCallback, failCallback) {
       } else {
         alert(errorMessage);
       }
-      failCallback();
+      failCallback(error);
     });
 }
 </script>
