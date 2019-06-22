@@ -57,6 +57,10 @@
       <input type="password" name="password" placeholder="패스워드를 입력해주세요.">
       <input type="password" name="password-repeat" placeholder="패스워드를 한 번 더 입력해주세요.">
     </fieldset>
+    <fieldset>
+      <input type="text" name="name" placeholder="성함을 입력해주세요.">
+      <input type="tel" name="tel" placeholder="휴대전화번호를 입력해주세요.">
+    </fieldset>
     <div class="buttons">
       <button type="submit">회원가입</button>
     </div>
@@ -73,6 +77,8 @@ $('form').on('submit', function (event) {
   var email = $form.find('[name="email"]').val();
   var password = $form.find('[name="password"]').val();
   var passwordRepeat = $form.find('[name="password-repeat"]').val();
+  var name = $form.find('[name="name"]').val();
+  var tel = $form.find('[name="tel"]').val();
   // Validation
   if (email.length < 4) {
     alert('이메일 주소를 올바르게 입력해주세요.');
@@ -85,6 +91,14 @@ $('form').on('submit', function (event) {
   if (formAction === 'join') {
     if (passwordRepeat && (password !== passwordRepeat)) {
       alert('패스워드 확인이 일치하지 않습니다.');
+      return false;
+    }
+    if (name.length < 2) {
+      alert('성함을 올바르게 입력해주세요.');
+      return false;
+    }
+    if (tel.length < 9) {
+      alert('휴대전화번호를 올바르게 입력해주세요.');
       return false;
     }
   }
@@ -104,8 +118,21 @@ $('form').on('submit', function (event) {
       break;
     case 'join':
       tryJoin(email, password, function (response) {
-        alert('회원가입을 완료하였습니다.');
-        location.href = '/login';
+        app.content.add({
+          schemaKey: 'users',
+          data: {
+            uid: response.user.uid,
+            name: name,
+            tel: tel
+          }
+        })
+        .then(function () {
+          alert('회원가입을 완료하였습니다.');
+          location.href = '/login';
+        })
+        .catch(function () {
+          alert('회원정보 생성을 실패하였습니다.\n내 프로필 페이지에서도 정보를 편집할 수 있습니다.');
+        });
       }, function (error) {
         $submitButton.prop('disabled', false);
       });
