@@ -90,7 +90,7 @@ $('form').on('submit', function (event) {
   }
   switch (formAction) {
     case 'login':
-      tryLogin(email, password, function () {
+      tryLogin(email, password, function (response) {
         var refer = location.href.split('refer=')[1];
         // 로그인 전 refer 주소가 있다면 리다이렉트
         if (refer && refer.length) {
@@ -98,15 +98,15 @@ $('form').on('submit', function (event) {
         } else {
           location.href = '/';
         }
-      }, function () {
+      }, function (error) {
         $submitButton.prop('disabled', false);
       });
       break;
     case 'join':
-      tryJoin(email, password, function () {
-        alert('회원가입 완료!');
+      tryJoin(email, password, function (response) {
+        alert('회원가입을 완료하였습니다.');
         location.href = '/login';
-      }, function () {
+      }, function (error) {
         $submitButton.prop('disabled', false);
       });
       break;
