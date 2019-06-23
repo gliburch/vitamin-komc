@@ -1,0 +1,77 @@
+<style>
+.sidebar {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:#313643;
+}
+.sidebar ul {
+  overflow:hidden;
+}
+.sidebar li {
+  float:left;
+  position:relative;
+  width:25%;
+  list-style:none;
+  text-align:center;
+}
+.sidebar li:before {
+  content:"";
+  display:block;
+  position:absolute;
+  top:20px;
+  right:0;
+  width:1px;
+  height:30px;
+  background-color:rgba(255,255,255,0.2);
+}
+.sidebar li:first-child:before {
+  display:none;
+}
+.sidebar li a {
+  display:block;
+  padding:12px 0 8px;
+}
+.sidebar li img {
+  display:block;
+  margin:0 auto 5px;
+}
+.sidebar li mark {
+  opacity:0.7;
+  background:none;
+  font-size:14px;
+  font-weight:500;
+  letter-spacing:-1.3px;
+  text-align: center;
+  color:#fff;
+}
+</style>
+<div class="sidebar">
+  <ul>
+  <li>
+    <a href="#">
+      <img src="/assets/icon-callnow.svg">
+      <mark>바로 전화하기</mark>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <img src="/assets/icon-posting.svg">
+      <mark>콜미남기기</mark>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <img src="/assets/icon-article.svg">
+      <mark>상담글 남기기</mark>
+    </a>
+  </li>
+  <li>
+    <a href="/about/branches">
+      <img src="/assets/icon-building.svg">
+      <mark>지점안내</mark>
+    </a>
+  </li>
+  </ul>
+</div>
