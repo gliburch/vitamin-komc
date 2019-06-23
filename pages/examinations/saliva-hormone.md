@@ -6,6 +6,6 @@ title: 타액호르몬
 permalink: /examinations/saliva-hormone
 ---
 
-![](http://www.bi-plane.co.kr/ver3/img/main_10.jpg)
-
-Hello World
+<h2 class="content-heading">
+  <strong>타액호르몬 검사</strong>
+</h2>
