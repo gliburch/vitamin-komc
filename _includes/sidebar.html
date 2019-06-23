@@ -63,32 +63,34 @@
 }
 </style>
 <div class="sidebar">
-  <ul>
-  <li>
-    <a href="#">
-      <img src="/assets/icon-callnow.svg">
-      <mark>바로 전화하기</mark>
-    </a>
-  </li>
-  <li>
-    <a href="javacript:void(0)" onclick="toggleCallmePopover()">
-      <img src="/assets/icon-posting.svg">
-      <mark>콜미남기기</mark>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <img src="/assets/icon-article.svg">
-      <mark>상담글 남기기</mark>
-    </a>
-  </li>
-  <li>
-    <a href="/about/branches">
-      <img src="/assets/icon-building.svg">
-      <mark>지점안내</mark>
-    </a>
-  </li>
-  </ul>
+  <div class="wrapper">
+    <ul>
+    <li>
+      <a href="#">
+        <img src="/assets/icon-callnow.svg">
+        <mark>바로 전화하기</mark>
+      </a>
+    </li>
+    <li>
+      <a href="javacript:void(0)" onclick="toggleCallmePopover()">
+        <img src="/assets/icon-posting.svg">
+        <mark>콜미남기기</mark>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img src="/assets/icon-article.svg">
+        <mark>상담글 남기기</mark>
+      </a>
+    </li>
+    <li>
+      <a href="/about/branches">
+        <img src="/assets/icon-building.svg">
+        <mark>지점안내</mark>
+      </a>
+    </li>
+    </ul>
+  </div>
 </div>
 <div class="callme-popover" style="display:none;">
   {%- include callme.html -%}

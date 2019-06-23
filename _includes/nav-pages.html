@@ -4,25 +4,25 @@
   min-height:40px;
   background-color:#313643;
 }
-.nav-pages ul {
+.nav-pages .wrapper ul {
   overflow:auto;
   margin:0;
 }
-.nav-pages ul li {
+.nav-pages .wrapper ul li {
   color:#fff;
   list-style:none;
 }
-.nav-pages > ul {
+.nav-pages .wrapper > ul {
   white-space:nowrap;
 }
-.nav-pages > ul > li {
+.nav-pages .wrapper > ul > li {
   zoom:1;
   display:inline-block;
   position:relative;
   margin-right:10px;
   vertical-align:top;
 }
-.nav-pages > ul > li > strong {
+.nav-pages .wrapper > ul > li > strong {
   line-height:40px;
   font-size:14px;
   font-weight:400;
@@ -30,17 +30,17 @@
   color:#fff;
   cursor:pointer;
 }
-.nav-pages > ul > li > ul {
+.nav-pages .wrapper > ul > li > ul {
   padding-bottom:30px;
 }
-.nav-pages > ul > li > ul > li > a {
+.nav-pages .wrapper > ul > li > ul > li > a {
   color:#fff;
   font-size:14px;
   font-weight:300;
   letter-spacing:-0.8px;
 }
 @media (min-width:981px) {
-  .nav-pages > ul > li > strong {
+  .nav-pages .wrapper > ul > li > strong {
     font-size:14px;
   }
 }
@@ -49,28 +49,30 @@
 {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 {%- if titles_size > 0 -%}
   <nav class="nav-pages">
-    {% assign mydocs = site.pages | group_by: 'category' %}
-    <ul>
-    {% for cat in mydocs %}
-    <li>
-      <strong>{{ cat.name | capitalize }}</strong>
-      <ul style="display:none">
-        {% assign items = cat.items | sort: 'order' %}
-        {% for item in items %}
-          {%- if item.order -%}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-          {%- endif -%}
-        {% endfor %}
+    <div class="wrapper">
+      {% assign mydocs = site.pages | group_by: 'category' %}
+      <ul>
+      {% for cat in mydocs %}
+      <li>
+        <strong>{{ cat.name | capitalize }}</strong>
+        <ul style="display:none">
+          {% assign items = cat.items | sort: 'order' %}
+          {% for item in items %}
+            {%- if item.order -%}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {%- endif -%}
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
       </ul>
-    </li>
-    {% endfor %}
-    </ul>
+    </div>
   </nav>
 {%- endif -%}
 
 <script>
-var $menuitemsParent = $('.nav-pages > ul > li > strong');
-var $menuitemsChildContainers = $('.nav-pages > ul > li > ul');
+var $menuitemsParent = $('.nav-pages .wrapper > ul > li > strong');
+var $menuitemsChildContainers = $('.nav-pages .wrapper > ul > li > ul');
 $menuitemsParent.on('click', function (event) {
   if ($menuitemsChildContainers.find(':visible').size()) {
     $menuitemsChildContainers.slideUp();
