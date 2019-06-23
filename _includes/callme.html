@@ -69,7 +69,7 @@
 }
 </style>
 <div class="callme">
-  <form>
+  <form onsubmit="inquireCallme(event)">
     <h3>빠른 상담 신청</h3>
     <p>연락처를 남겨주시면<br>빠르고 친절하게 상담해드리겠습니다.</p>
     <p>바로 통화를 원하시면 전화주세요.</p>
@@ -92,13 +92,14 @@
   </form>
 </div>
 <script>
-$('.callme form').on('submit', function(event) {
+function inquireCallme(event) {
   event.preventDefault();
-  var agreement = $('input[name="agreement"]').prop('checked');
+  var $form = $(event.target);
+  var agreement = $form.find('input[name="agreement"]').prop('checked');
   var params = {}
-  params.branch = $('select[name="branch"]').val();
-  params.mentee = $('input[name="mentee"]').val().trim();
-  params.tel = String($('input[name="tel"]').val().trim()).replace(/\D/g, '');
+  params.branch = $form.find('select[name="branch"]').val();
+  params.mentee = $form.find('input[name="mentee"]').val().trim();
+  params.tel = String($form.find('input[name="tel"]').val().trim()).replace(/\D/g, '');
   if (!params.branch || params.branch.length <= 0) {
     alert('지점을 선택해주세요.');
     return false;
@@ -121,8 +122,8 @@ $('.callme form').on('submit', function(event) {
   })
   .then(function () {
     alert('상담이 접수되었습니다.\n빠른 시간 내에 답변 드리겠습니다.');
-    $('input[name="mentee"]').val('');
-    $('input[name="tel"]').val('');
+    $form.find('input[name="mentee"]').val('');
+    $form.find('input[name="tel"]').val('');
   })
-})
+}
 </script>
