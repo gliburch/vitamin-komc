@@ -149,29 +149,38 @@ var swiper = new Swiper('.swiper-container', {
 
 <!-- 후기 -->
 <h3 style="text-align:center"><strong>비타민한의원</strong>의 생생한 치료후기</h3>
-<div class="featured-review">
-  <dl>
-  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
-  <dd>
-    <strong>담적증! 증상 치료 한달차</strong>
-    <p>실제 내원한 환자분들께 앞으로 치료 계획을 설명하는 영상입니다. 식단, 생활관리, 약 등등 전반적인 모든 것을 알 수 있습니다. 검 ...</p>
-  </dd>
-  </dl>
-  <dl>
-  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
-  <dd>
-    <strong>담적증! 증상 치료 한달차</strong>
-    <p>실제 내원한 환자분들께 앞으로 치료 계획을 설명하는 영상입니다. 식단, 생활관리, 약 등등 전반적인 모든 것을 알 수 있습니다. 검 ...</p>
-  </dd>
-  </dl>
-  <dl>
-  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
-  <dd>
-    <strong>담적증! 증상 치료 한달차</strong>
-    <p>실제 내원한 환자분들께 앞으로 치료 계획을 설명하는 영상입니다. 식단, 생활관리, 약 등등 전반적인 모든 것을 알 수 있습니다. 검 ...</p>
-  </dd>
-  </dl>
+<div id="featured-reviews" class="featured-articles">
+  <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
 </div>
+<script>
+app.content.getByField({
+  schemaKey: 'featured',
+  field: 'display',
+  value: 'review',
+  orderByChild: 'created',
+  populate: true
+}).then(function (data) {
+  $('#featured-reviews').empty();
+  Object.keys(data).forEach(function (key) {
+    var article = data[key];
+    console.log(article);
+    var thumbnail = (article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
+    var title = article.title;
+    var desc = article.desc;
+    var url = (article.article ? '/articles?id=' + article.article.id : '/about/reviews');
+    var markupSrc = [
+      '<dl onclick="location.href = \'' + url + '\'">',
+      '<dt><img src="' + thumbnail + '" alt=""></dt>',
+      '<dd>',
+        '<strong>' + title + '</strong>',
+        '<p>' + desc + '</p>',
+      '</dd>',
+      '</dl>'
+    ];
+    $('#featured-reviews').append(markupSrc.join(''));
+  });
+});
+</script>
 
 <!-- 질환 찾기 -->
 <style>
@@ -206,26 +215,38 @@ var swiper = new Swiper('.swiper-container', {
   <button type="button" onclick="alert('기능이 곧 공개됩니다')">나의질환 알아보기</button>
 </div>
 
-<div class="featured-review">
-  <dl>
-  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
-  <dd>
-    <strong>담적증! 증상 치료 한달차</strong>
-  </dd>
-  </dl>
-  <dl>
-  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
-  <dd>
-    <strong>담적증! 증상 치료 한달차</strong>
-  </dd>
-  </dl>
-  <dl>
-  <dt><img src="https://via.placeholder.com/300x180" alt=""></dt>
-  <dd>
-    <strong>담적증! 증상 치료 한달차</strong>
-  </dd>
-  </dl>
+<!-- 의학정보 -->
+<div id="featured-studies" class="featured-articles">
+  <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
 </div>
+<script>
+app.content.getByField({
+  schemaKey: 'featured',
+  field: 'display',
+  value: 'study',
+  orderByChild: 'created',
+  populate: true
+}).then(function (data) {
+  $('#featured-studies').empty();
+  Object.keys(data).forEach(function (key) {
+    var article = data[key];
+    var thumbnail = (article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
+    var title = article.title;
+    var desc = article.desc;
+    var url = (article.article ? '/articles?id=' + article.article.id : '/about/study');
+    var markupSrc = [
+      '<dl>',
+      '<dt><img src="' + thumbnail + '" alt=""></dt>',
+      '<dd>',
+        '<strong>' + title + '</strong>',
+        '<p>' + desc + '</p>',
+      '</dd>',
+      '</dl>'
+    ];
+    $('#featured-studies').append(markupSrc.join(''));
+  });
+});
+</script>
 
 <!-- 배너 -->
 <style>
@@ -245,13 +266,16 @@ var swiper = new Swiper('.swiper-container', {
 }
 </style>
 <h3 style="text-align:center"><strong>비타민한의원</strong>의 다양한 소식들</h3>
-<div id="banners" class="home-banners"></div>
+<div id="banners" class="home-banners">
+  <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
+</div>
 <script>
 app.content.get({
   schemaKey: 'banners',
-  orderByChild: 'updated',
+  orderByChild: 'created',
   populate: true
 }).then(function (data) {
+  $('#banners').empty();
   Object.keys(data).forEach(function (key) {
     var banner = data[key];
     var image = (banner.image[0] ? banner.image[0].url : null);
