@@ -5,11 +5,12 @@ permalink: /articles
 ---
 
 <script>
-var pathFragment = location.pathname.split('/');
-var articleId = pathFragment[pathFragment.length - 1];
+var articleId = location.href.split('id=')[1];
 </script>
 
-<div id="content"></div>
+<div style="padding:25px">
+  <div id="content"></div>
+</div>
 
 <script>
 var db = firebase.firestore();
