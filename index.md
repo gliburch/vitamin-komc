@@ -203,7 +203,7 @@ var swiper = new Swiper('.swiper-container', {
 </style>
 <div class="detect-mine">
   <h3>난<br>어떤 질환일까?</h3>
-  <button>나의질환 알아보기</button>
+  <button type="button" onclick="alert('기능이 곧 공개됩니다')">나의질환 알아보기</button>
 </div>
 
 <div class="featured-review">
