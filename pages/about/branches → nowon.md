@@ -104,7 +104,7 @@ permalink: /about/branches/nowon
 <h3>예약 및 상담</h3>
 <p>
   <big style="font-size:32px">
-    <a href="tel:02-2088-1220" style="color:#000">02-2088-1220</a>
+    <a href="tel:02-932-8875" style="color:#000">02-932-8875</a>
   </big>
 </p>
 <div class="call-to-action">
