@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 검사안내
+category: 2-검사안내
 order: 5
 title: hrv
 permalink: /examinations/hrv

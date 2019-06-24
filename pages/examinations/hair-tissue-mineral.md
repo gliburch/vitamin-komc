@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 검사안내
+category: 2-검사안내
 order: 3
 title: 모발미네랄
 permalink: /examinations/hair-tissue-mineral

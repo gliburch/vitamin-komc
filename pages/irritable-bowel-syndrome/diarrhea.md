@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 과민대장증후군
+category: 3-과민대장증후군
 order: 1
 title: 설사형
 permalink: /irritable-bowel-syndrome/diarrhea

@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 과민대장증후군
+category: 3-과민대장증후군
 order: 5
 title: 장명음
 permalink: /irritable-bowel-syndrome/visceral
