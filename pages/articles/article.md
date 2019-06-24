@@ -4,15 +4,28 @@ title: 게시글
 permalink: /articles
 ---
 
-<script>
-var articleId = location.href.split('id=')[1];
-</script>
+<style>
+.article {
+  margin:25px 25px 50px;
+}
+.article h2 {
+  margin-bottom:10px;
+}
+.article hr {
+  margin:15px 0;
+}
+.article iframe {
+  max-width:100%;
+  border:none;
+}
+</style>
 
-<div style="padding:25px">
+<div class="article">
   <div id="content"></div>
 </div>
 
 <script>
+var articleId = location.href.split('id=')[1];
 var db = firebase.firestore();
 db.collection('fl_content')
   .doc(articleId)
