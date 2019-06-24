@@ -53,43 +53,43 @@ layout: default
   margin:-40px 0 0;
 }
 .slide-message h2 {
-  font-size:10px;
+  font-size:12px;
   letter-spacing:-1px;
 }
 .slide-message h2 strong {
   display:block;
   font-size:40px;
-  font-weight:100;
+  font-weight:300;
   letter-spacing:-1.5px;
   color:#f4512c;
   text-align:center;
 }
 .slide-message p {
-  font-size:10px;
+  font-size:12px;
   letter-spacing:-1px;
 }
 </style>
 <div class="swiper-container">
   <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <img src="https://images.unsplash.com/photo-1486049252259-45184399c5b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+    <div class="swiper-slide" onclick="location.href = '/irritable-bowel-syndrome/gas'">
+      <img src="/assets/img-slide1.jpg" alt="">
       <div class="slide-message">
         <h2>비타민한의원의 특별한 <strong>위·대장클리닉</strong></h2>
         <p>한의학, 기능의 학적 접근을 통해   근본적인 원인을 해결합니다</p>
       </div>
     </div>
-    <div class="swiper-slide">
-      <img src="https://images.unsplash.com/photo-1445527815219-ecbfec67492e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+    <div class="swiper-slide" onclick="location.href = '/adolescence/physical'">
+      <img src="/assets/img-slide2.jpg" alt="">
       <div class="slide-message">
-        <h2>비타민한의원의 특별한 <strong>위·대장클리닉</strong></h2>
-        <p>한의학, 기능의 학적 접근을 통해   근본적인 원인을 해결합니다</p>
+        <h2>철저한 관리 <strong>수험생 클리닉</strong></h2>
+        <p>건강이 곧 성적입니다.</p>
       </div>
     </div>
-    <div class="swiper-slide">
-      <img src="https://images.unsplash.com/photo-1557825835-70d97c4aa567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+    <div class="swiper-slide" onclick="location.href = '/about/boards/notice'">
+      <img src="/assets/img-slide3.jpg" alt="">
       <div class="slide-message">
-        <h2>비타민한의원의 특별한 <strong>위·대장클리닉</strong></h2>
-        <p>한의학, 기능의 학적 접근을 통해   근본적인 원인을 해결합니다</p>
+        <h2>비파민한의원은 지금 <strong>리뉴얼 오픈 이벤트!</strong></h2>
+        <p></p>
       </div>
     </div>
   </div>
