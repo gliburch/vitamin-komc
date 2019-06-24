@@ -80,13 +80,11 @@ permalink: /irritable-bowel-syndrome/diarrhea
   <p>장속 유익균, 유해균 분포를 파악하는 <mark>장내미생물 검사</mark></p>
 </div>
 
-<div style="padding:200px 0; text-align:center;">
-  <small>(한약, 영양관리 설명)</small>
-</div>
+{%- include medicine-care.html -%}
 
-<div class="call-to-action">
-  <a href="/about/nutrition-management"><strong>비타민 한의원만의 영양관리 자세히 알아보기</strong></a>
-</div>
+<hr>
+
+{%- include nutrition-care.html -%}
 
 <hr>
 

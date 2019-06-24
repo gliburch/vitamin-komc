@@ -15,3 +15,8 @@ permalink: /adolescence/growth
   <img src="/assets/img-slide3.jpg" alt="">
 </figure>
 
+{%- include medicine-care.html -%}
+
+<hr>
+
+{%- include nutrition-care.html -%}
