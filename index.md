@@ -163,7 +163,6 @@ app.content.getByField({
   $('#featured-reviews').empty();
   Object.keys(data).forEach(function (key) {
     var article = data[key];
-    console.log(article);
     var thumbnail = (article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
     var title = article.title;
     var desc = article.desc;
@@ -235,7 +234,7 @@ app.content.getByField({
     var desc = article.desc;
     var url = (article.article ? '/articles?id=' + article.article.id : '/about/study');
     var markupSrc = [
-      '<dl>',
+      '<dl onclick="location.href = \'' + url + '\'">',
       '<dt><img src="' + thumbnail + '" alt=""></dt>',
       '<dd>',
         '<strong>' + title + '</strong>',
