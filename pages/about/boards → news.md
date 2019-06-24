@@ -1,7 +1,7 @@
 ---
 layout: page
 category: 비타민한의원
-order: 4
+order: 5
 title: 뉴스
 permalink: /about/boards/news
 ---

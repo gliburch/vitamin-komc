@@ -101,4 +101,15 @@ permalink: /about/branches/nowon
 <hr>
 -->
 
-{%- include call-to-action.html -%}
+<h3>예약 및 상담</h3>
+<p>
+  <big style="font-size:32px">
+    <a href="tel:02-2088-1220" style="color:#000">02-2088-1220</a>
+  </big>
+</p>
+<div class="call-to-action">
+  <a href="javascript:void(0)" onclick="toggleCallmePopover()">
+    <strong>비타민 한의원 예약 상담하기 <img src="/assets/icon-hand-graving-phone.svg" alt=""></strong>
+  </a>
+</div>
+{%- include callme-popover.html -%}

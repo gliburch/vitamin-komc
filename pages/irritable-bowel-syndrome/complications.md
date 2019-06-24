@@ -20,7 +20,7 @@ permalink: /irritable-bowel-syndrome/complications
 </div>
 
 <div class="call-to-action">
-  <a href="#"><strong>비타민 한의원만의 영양관리 자세히 알아보기</strong></a>
+  <a href="/about/nutrition-management"><strong>비타민 한의원만의 영양관리 자세히 알아보기</strong></a>
 </div>
 
 <hr>
