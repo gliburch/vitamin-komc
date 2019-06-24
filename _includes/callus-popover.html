@@ -1,0 +1,57 @@
+<style>
+.callus-popover {
+  z-index:1000;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:#fff;
+  box-shadow:0 -10px 20px 0 rgba(0,0,0,0.2);
+}
+.callus-popover .btn-close {
+  position:absolute;
+  top:0;
+  right:0;
+  width:60px;
+  height:60px;
+  border:none;
+  background:none;
+}
+.callus-popover dl {
+  padding:25px 25px 50px;
+  color:#212b36;
+  text-align:center;
+}
+.callus-popover dl dt {
+  margin:25px 0 0;
+  font-size:14px;
+  font-weight:bold;
+  letter-spacing:-1.4px;
+}
+.callus-popover dl dd a {
+  color:#000;
+  font-size:32px;
+  letter-spacing:-1.2px;
+}
+</style>
+<div class="callus-popover" style="display:none;">
+  <dl>
+  <dt>강남점</dt>
+  <dd><a href="tel:02-2088-1220">02-2088-1220</a></dd>
+  <dt>노원점</dt>
+  <dd><a href="tel:02-932-8875">02-932-8875</a></dd>
+  </dl>
+  <button class="btn-close" type="button" onclick="toggleCallusPopover()">
+    <img src="/assets/icon-toggle-down.svg" alt="닫기">
+  </button>
+</div>
+<script>
+function toggleCallusPopover() {
+  var $callmePopover = $('.callus-popover');
+  if ($callmePopover.is(':visible')) {
+    $callmePopover.slideUp();
+  } else {
+    $callmePopover.slideDown();
+  }
+}
+</script>

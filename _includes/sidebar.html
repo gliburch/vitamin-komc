@@ -57,7 +57,7 @@
   <div class="wrapper">
     <ul>
     <li>
-      <a href="tel:02-2088-1220">
+      <a href="javascript:void(0)" onclick="toggleCallusPopover()">
         <img src="/assets/icon-callnow.svg">
         <mark>바로 전화하기</mark>
       </a>
@@ -85,4 +85,6 @@
     </ul>
   </div>
 </div>
+
+{%- include callus-popover.html -%}
 {%- include callme-popover.html -%}
