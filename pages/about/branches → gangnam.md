@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 비타민한의원
+category: 1-비타민한의원
 order: 2
 title: 의료진/지점안내
 permalink: /about/branches/gangnam

@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 제휴/할인
+category: 7-제휴/할인
 order: 1
 title: 제휴/할인
 permalink: /promotions

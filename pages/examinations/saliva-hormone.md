@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 검사안내
+category: 2-검사안내
 order: 4
 title: 타액호르몬
 permalink: /examinations/saliva-hormone

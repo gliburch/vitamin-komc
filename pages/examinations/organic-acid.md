@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 검사안내
+category: 2-검사안내
 order: 1
 title: 유기산
 permalink: /examinations/organic-acid

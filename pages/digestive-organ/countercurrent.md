@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 소화기 클리닉
+category: 5-소화기 클리닉
 order: 1
 title: 역류성식도염
 permalink: /digestive-organ/countercurrent

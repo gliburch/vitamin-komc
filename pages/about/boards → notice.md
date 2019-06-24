@@ -1,6 +1,6 @@
 ---
 layout: page
-category: 비타민한의원
+category: 1-비타민한의원
 title: 공지사항
 permalink: /about/boards/notice
 ---

@@ -50,11 +50,11 @@
 {%- if titles_size > 0 -%}
   <nav class="nav-pages">
     <div class="wrapper">
-      {% assign mydocs = site.pages | group_by: 'category' %}
+      {% assign mydocs = site.pages | group_by: 'category' | sort: 'name' %}
       <ul>
       {% for cat in mydocs %}
       <li>
-        <strong>{{ cat.name | capitalize }}</strong>
+        <strong>{{ cat.name | capitalize | slice: 2, 20 }}</strong>
         <ul style="display:none">
           {% assign items = cat.items | sort: 'order' %}
           {% for item in items %}
