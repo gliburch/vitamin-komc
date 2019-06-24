@@ -38,7 +38,7 @@ db.collection('fl_content')
       var created = data.created;
       var markupSrc = [
         '<tr>',
-        '<td><a href="/articles/' + id + '">' + title + '</a></td>',
+        '<td><a href="/articles?id=' + id + '">' + title + '</a></td>',
         '<td>비타민한의원</td>',
         '<td>' + created + '</td>',
         '</tr>'
