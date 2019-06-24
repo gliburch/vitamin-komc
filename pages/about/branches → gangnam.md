@@ -2,12 +2,17 @@
 layout: page
 category: 비타민한의원
 order: 2
-title: 의료진소개
-permalink: /about/team/lee-jin-won
+title: 의료진/지점안내
+permalink: /about/branches/gangnam
 ---
 
+<div class="tab">
+  <strong>강남점</strong>
+  <a href="/about/branches/nowon">노원점</a>
+</div>
+
 <figure>
-  <img src="https://via.placeholder.com/1920x1080?text=Profile Snapshot" alt="">
+  <img src="/assets/img-branch-gangnam.jpg" alt="">
 </figure>
 
 <style>
@@ -50,13 +55,6 @@ permalink: /about/team/lee-jin-won
   <li>CSIO 항암식단관리과정 이수</li>
   <li>임상연구가를 위한 한의학 연구과정 이수</li>
   </ul>
-  <ul>
-  <li>경희대 한의학 박사 수료 (동서의학 전공)</li>
-  <li>2017 MD Anderson 통합의학과정 수료 </li>
-  <li>CSIO 통합의학암아카데미 수료</li>
-  <li>CSIO 항암식단관리과정 이수</li>
-  <li>임상연구가를 위한 한의학 연구과정 이수</li>
-  </ul>
 </div>
 
 <h3>진료 시간</h3>
@@ -86,6 +84,7 @@ permalink: /about/team/lee-jin-won
 
 <hr>
 
+<!--
 <h3>둘러보기</h3>
 <div class="featured-review">
   <dl>
@@ -100,9 +99,6 @@ permalink: /about/team/lee-jin-won
 </div>
 
 <hr>
+-->
 
-<h3>예약 및 상담</h3>
-<p><big style="color:#000; font-size:32px">02-2088-1220</big></p>
-<div class="call-to-action">
-  <a href="#"><strong>비타민 한의원 예약 상담하기 <img src="/assets/icon-hand-graving-phone.svg" alt=""></strong></a>
-</div>
+{%- include call-to-action.html -%}
