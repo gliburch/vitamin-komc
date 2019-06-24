@@ -21,7 +21,9 @@ permalink: /articles
 </style>
 
 <div class="article">
-  <div id="content"></div>
+  <div id="content">
+    <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
+  </div>
 </div>
 
 <script>
@@ -31,6 +33,7 @@ db.collection('fl_content')
   .doc(articleId)
   .get()
   .then(function (doc) {
+    $('#content').empty();
     var id = doc.id;
     var data = doc.data();
     var title = data.title;

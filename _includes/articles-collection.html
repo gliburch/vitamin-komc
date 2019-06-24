@@ -1,0 +1,40 @@
+<style>
+table td {
+  padding-left:25px;
+  padding-right:25px;
+}
+</style>
+
+<table id="articles">
+<colgroup>
+  <col>
+</colgroup>
+<tbody>
+  <td>
+    <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
+  </td>
+</tbody>
+</table>
+
+<script>
+app.content.getByField({
+  schemaKey: 'articles',
+  field: 'category',
+  value: '{{ include.category }}',
+  orderByChild: 'created',
+  populate: true
+}).then(function (data) {
+  $('#articles tbody').empty();
+  Object.keys(data).forEach(function (key) {
+    var article = data[key];
+    var id = article.id;
+    var title = article.title;
+    var markupSrc = [
+      '<tr>',
+      '<td><a href="/articles?id=' + id + '">' + title + '</a></td>',
+      '</tr>'
+    ];
+    $('#articles tbody').append(markupSrc.join(''));
+  });
+});
+</script>
