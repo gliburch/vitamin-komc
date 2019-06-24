@@ -66,6 +66,14 @@ main > h3 {
 main > h3 strong {
   color:#f4512c;
 }
+main > h4,
+main > h5,
+main > h6 {
+  margin:25px 25px 15px;
+  color:#313643;
+  font-size:14px;
+  letter-spacing:-1.4px;
+}
 main > p {
   margin:15px 25px;
   line-height:150%;
@@ -254,6 +262,20 @@ main > hr {
   zoom:1;
   display:inline-block;
   width:50px;
+  font-weight:bold;
+}
+.content-important {
+  margin:25px;
+  padding:20px 8px;
+  border:1px solid #f4512c;
+  color:#f4512c;
+  font-size:14px;
+  letter-spacing:-1.4px;
+  text-align:center;
+}
+.content-important mark {
+  background:none;
+  color:#f4512c;
   font-weight:bold;
 }
 .content-caution {
