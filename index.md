@@ -116,31 +116,31 @@ var swiper = new Swiper('.swiper-container', {
 <!-- 퀵링크 -->
 <ul class="featured-links">
 <li>
-  <a href="#">
+  <a href="/irritable-bowel-syndrome/gas">
     <img src="/assets/icon-featured-1.svg" alt="">
     <span>과민성<br>대장증후군</span>
   </a>
 </li>
 <li>
-  <a href="#">
+  <a href="/adolescence/physical">
     <img src="/assets/icon-featured-2.svg" alt="">
     <span>청소년 클리닉</span>
   </a>
 </li>
 <li>
-  <a href="#">
+  <a href="/digestive-organ/gastritis">
     <img src="/assets/icon-featured-3.svg" alt="">
     <span>소화기 클리닉</span>
   </a>
 </li>
 <li>
-  <a href="#">
+  <a href="/examinations/organic-acid">
     <img src="/assets/icon-featured-4.svg" alt="">
     <span>검사안내</span>
   </a>
 </li>
 <li>
-  <a href="#">
+  <a href="/about/services">
     <img src="/assets/icon-featured-5.svg" alt="">
     <span>진료안내</span>
   </a>
