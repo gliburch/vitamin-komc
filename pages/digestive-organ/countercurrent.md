@@ -6,4 +6,11 @@ title: 역류성
 permalink: /digestive-organ/countercurrent
 ---
 
-Hello World
+<h2 class="content-heading">
+  <small>-</small>
+  <strong>소화기 클리닉</strong> 역류성
+</h2>
+
+<figure>
+  <img src="/assets/img-slide3.jpg" alt="">
+</figure>

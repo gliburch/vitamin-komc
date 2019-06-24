@@ -6,4 +6,10 @@ title: 통증케어
 permalink: /ache
 ---
 
-Hello World
+<h2 class="content-heading">
+  <strong>통증케어</strong>
+</h2>
+
+<figure>
+  <img src="/assets/img-slide3.jpg" alt="">
+</figure>
