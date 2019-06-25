@@ -1,14 +1,14 @@
 ---
 layout: page
-category: 5-소화기 클리닉
+category: 5-위·장클리닉
 order: 4
-title: 장누수
+title: 장누수증후군 
 permalink: /digestive-organ/leaky-gut
 ---
 
 <h2 class="content-heading">
   <small>-</small>
-  <strong>소화기 클리닉</strong> 장누수
+  <strong>위·장클리닉</strong> 장누수증후군 
 </h2>
 
 <figure>
