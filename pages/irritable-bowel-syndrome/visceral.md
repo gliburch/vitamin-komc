@@ -2,13 +2,13 @@
 layout: page
 category: 3-과민대장증후군
 order: 5
-title: 장명음
+title: 장명/실금
 permalink: /irritable-bowel-syndrome/visceral
 ---
 
 <h2 class="content-heading">
   <small>설사형 가스형 장명/실금 통증형</small>
-  <strong>과민대장증후군</strong> 장명음
+  <strong>과민대장증후군</strong> 장명/실금
 </h2>
 
 <figure>
