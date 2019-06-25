@@ -11,15 +11,13 @@ layout: default
 
 <style>
 .swiper-container {
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width:100%;
 }
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
+  position:relative;
+  background:#fff;
+  font-size:18px;
+  text-align:center;
 }
 .swiper-slide:before {
   content:"";
