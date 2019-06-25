@@ -78,9 +78,8 @@ permalink: /about/branches/nowon
   서울 노원구 상계동 603-2 하이웰빙 상가 4층 403호<br>
   노원역 9번 출구, 노원 롯데백화점 후문 건너편에 위치
 </p>
-<figure>
-  <img src="https://via.placeholder.com/1920x1080?text=Map Embed" alt="">
-</figure>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.6674275300843!2d127.05956021515027!3d37.65702212669888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb91560ea0d71%3A0xfd5586b79f746f59!2z7ISc7Jq47Yq567OE7IucIOuFuOybkOq1rCDsg4Hqs4Trj5kgNjAzLTI!5e0!3m2!1sko!2skr!4v1561422744805!5m2!1sko!2skr" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <hr>
 
