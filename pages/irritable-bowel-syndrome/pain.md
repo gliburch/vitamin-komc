@@ -1,7 +1,7 @@
 ---
 layout: page
 category: 3-과민대장증후군
-order: 4
+order: 3
 title: 통증형
 permalink: /irritable-bowel-syndrome/pain
 ---

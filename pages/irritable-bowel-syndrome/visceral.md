@@ -1,7 +1,7 @@
 ---
 layout: page
 category: 3-과민대장증후군
-order: 5
+order: 4
 title: 장명/실금
 permalink: /irritable-bowel-syndrome/visceral
 ---

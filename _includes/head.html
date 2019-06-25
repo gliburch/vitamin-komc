@@ -9,6 +9,7 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://unpkg.com/html5shiv"></script>
+  <script src="http://unpkg.com/jquery@1.11.1"></script>
   {%- include firebase.html -%}
 </head>
