@@ -10,6 +10,4 @@ permalink: /promotions
   <strong>제휴/할인</strong>
 </h2>
 
-<figure>
-  <img src="/assets/img-slide3.jpg" alt="">
-</figure>
+{%- include articles-collection.html category="promotion" -%}
