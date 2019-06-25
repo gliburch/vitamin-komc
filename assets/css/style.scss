@@ -41,6 +41,7 @@ blockquote {
 .page-content {
   padding:0;
   font-size:14px;
+  flex:auto;
 }
 @media (min-width:601px) {
   .page-content {
@@ -50,9 +51,6 @@ blockquote {
 }
 
 /* Style Guides */
-main {
-  flex:auto;
-}
 main > h2 {
   margin:25px 0;
   font-size:20px;
