@@ -78,9 +78,8 @@ permalink: /about/branches/gangnam
   <strong>주차</strong><br>
   삼원빌딩에 지상주차 하신 후 주차권을 받아 안내데스크에 주차권을 보여주시면 도장을 찍어드립니다.
 </p>
-<figure>
-  <img src="https://via.placeholder.com/1920x1080?text=Map Embed" alt="">
-</figure>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.6210470306523!2d127.02723991514603!3d37.49326803607879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1dadf7cdb0f%3A0x1796a801d3aeb611!2z67CU7J207ZSM656c7ZWc7J2Y7JuQ!5e0!3m2!1sko!2skr!4v1561422405858!5m2!1sko!2skr" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <hr>
 
