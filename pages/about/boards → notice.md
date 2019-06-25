@@ -6,7 +6,7 @@ permalink: /about/boards/notice
 ---
 
 <h2>
-  <a href="{{ page.dir }}news">뉴스</a> / <strong>공지사항</strong>
+  <a href="{{ page.dir }}news">뉴스</a> &nbsp; / &nbsp; <strong>공지사항</strong>
 </h2>
 
 {%- include articles-collection.html category="notice" -%}
