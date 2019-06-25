@@ -49,11 +49,17 @@ permalink: /about/branches/gangnam
 <div class="content-history">
   <h3>의료진 약력</h3>
   <ul>
-  <li>경희대 한의학 박사 수료 (동서의학 전공)</li>
+  <li>경희대 한의학 박사 (동서의학 전공)</li>
   <li>2017 MD Anderson 통합의학과정 수료 </li>
   <li>CSIO 통합의학암아카데미 수료</li>
   <li>CSIO 항암식단관리과정 이수</li>
+  <li>전 서울한의원 원장</li>
+  <li>전 김포제일병원 한방과장</li>
+  <li>'굿바이 과민대장증후군' 저자</li>
+  <li>'세상편한 유아식판식' 저자</li>
+  <li>'우리 아이를 위한 한의학 건강 상식' 저자</li>  
   <li>임상연구가를 위한 한의학 연구과정 이수</li>
+  <li>임상연구 전문 인력 양성교육 이수</li>  
   </ul>
 </div>
 
