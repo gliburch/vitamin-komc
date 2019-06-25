@@ -75,38 +75,7 @@ app.content.getByField({
 });
 </script>
 
-<!-- 질환 찾기 -->
-<style>
-.detect-mine {
-  position:relative;
-  height:85px;
-  padding:15px 25px;
-  background-image:linear-gradient(76deg, #f4512c, #f4512c 50%, #ffb800);
-}
-.detect-mine h3 {
-  font-size:22px;
-  font-weight:300;
-  line-height:120%;
-  letter-spacing:-2.2px;
-  color:#fff;
-  text-align:left;
-}
-.detect-mine button {
-  position:absolute;
-  right:25px;
-  bottom:15px;
-  height:30px;
-  padding:0 10px;
-  border-radius:15px;
-  border:none;
-  background-color:#fff;
-  color:#f4512c;
-}
-</style>
-<div class="detect-mine">
-  <h3>난<br>어떤 질환일까?</h3>
-  <button type="button" onclick="alert('기능이 곧 공개됩니다')">나의질환 알아보기</button>
-</div>
+{%- include self-disease-check.html -%}
 
 <!-- 의학정보 -->
 <div id="featured-studies" class="featured-articles">
