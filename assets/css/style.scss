@@ -50,6 +50,9 @@ blockquote {
 }
 
 /* Style Guides */
+main {
+  flex:auto;
+}
 main > h2 {
   margin:25px 0;
   font-size:20px;
