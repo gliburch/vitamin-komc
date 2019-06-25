@@ -1,7 +1,7 @@
 ---
 layout: page
 category: 3-과민대장증후군
-order: 3
+order: 2
 title: 가스형
 permalink: /irritable-bowel-syndrome/gas
 ---
