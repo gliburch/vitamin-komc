@@ -1,20 +1,34 @@
 <style>
-table td {
-  padding-left:25px;
-  padding-right:25px;
+.article-unit {
+  overflow:hidden;
+  padding:15px 25px;
+  border:1px solid #ddd;
+  border-width:1px 0;
+}
+.article-unit figure {
+  float:left;
+  margin-right:15px;
+}
+.article-unit figure img {
+  width:100px;
+  height:60px;
+  border:1px solid #eee;
+  object-fit:cover;
+}
+.article-unit h3 {
+  color:#000;
+  font-size:14px;
+}
+.article-unit p {
+  overflow:hidden;
+  margin:3px 0 0;
+  font-size:12px;
 }
 </style>
 
-<table id="articles">
-<colgroup>
-  <col>
-</colgroup>
-<tbody>
-  <td>
-    <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
-  </td>
-</tbody>
-</table>
+<div id="articles">
+  <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
+</div>
 
 <script>
 app.content.getByField({
@@ -24,17 +38,23 @@ app.content.getByField({
   orderByChild: 'created',
   populate: true
 }).then(function (data) {
-  $('#articles tbody').empty();
+  $('#articles').empty();
   Object.keys(data).forEach(function (key) {
     var article = data[key];
     var id = article.id;
+    var thumbnail = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
     var title = article.title;
+    // var content = article.content.substring(0, 35) + (article.content.length > 35 ?  '...' : '');
     var markupSrc = [
-      '<tr>',
-      '<td><a href="/articles?id=' + id + '">' + title + '</a></td>',
-      '</tr>'
+      '<div class="article-unit" onclick="location.href = \'/articles?id=' + id + '\'">',
+        '<figure>',
+          '<img src="' + thumbnail + '" alt="">',
+        '</figure>',
+        '<h3>' + title + '</h3>',
+        // '<p>' + content + '</p>',
+      '</div>'
     ];
-    $('#articles tbody').append(markupSrc.join(''));
+    $('#articles').append(markupSrc.join(''));
   });
 });
 </script>
