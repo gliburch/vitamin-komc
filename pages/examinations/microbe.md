@@ -1,7 +1,7 @@
 ---
 layout: page
 category: 2-검사안내
-order: 2
+order: 3
 title: 장내미생물
 permalink: /examinations/microbe
 ---
