@@ -27,7 +27,7 @@ permalink: /about/nutrition-care
 </figure>
 
 <h4>기능의학 검사를 바탕으로 한 과학적인 영양치료</h4>
-<p기능의학검사, 혈중지질/혈당 검사, 유전자검사, 유기산 검사, 모발미네랄 검사, 타액 호르몬 검사, 항암면역식단검사(LAM)></p>
+<p>기능의학검사, 혈중지질/혈당 검사, 유전자검사, 유기산 검사, 모발미네랄 검사, 타액 호르몬 검사, 항암면역식단검사(LAM)</p>
 
 <figure>
   <img src="https://via.placeholder.com/1920x1080?text=VitaHani" alt="">
