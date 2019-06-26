@@ -12,7 +12,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
 </h2>
 
 <figure>
-  <img src="/assets/20190617041610.jpg" alt="">
+  <img src="/assets/20190626090250.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">언제 찾아올지 모르는 공포, 설사</h3>

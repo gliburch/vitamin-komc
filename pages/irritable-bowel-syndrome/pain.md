@@ -12,7 +12,7 @@ permalink: /irritable-bowel-syndrome/pain
 </h2>
 
 <figure>
-  <img src="/assets/20190617041610.jpg" alt="">
+  <img src="/assets/20190626090144.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">끈질기게 괴롭히는 복통</h3>

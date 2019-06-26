@@ -12,7 +12,7 @@ permalink: /irritable-bowel-syndrome/visceral
 </h2>
 
 <figure>
-  <img src="/assets/20190617041610.jpg" alt="">
+  <img src="/assets/20190626090019.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">남에게 말 못할 고민, 장명과 가스실금</h3>
