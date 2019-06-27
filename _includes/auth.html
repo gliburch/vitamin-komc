@@ -13,6 +13,7 @@
   margin-top:8px;
   padding:8px;
   border:1px solid #e8e8e8;
+  background-color:#fff !important;
   background:none;
   box-sizing:border-box;
   -webkit-appearance:none;
@@ -22,19 +23,26 @@
 }
 .auth p {
   margin:15px 0;
+  text-align:center;
+}
+.auth p a {
+  color:#999;
 }
 .auth .buttons {
   margin-top:15px;
 }
 .auth .buttons button {
-  padding:10px 30px;
-  border-radius:5px;
-  border:1px solid #e8e8e8;
-  background-color:#eee;
-  font-size:16px;
-}
-.auth .buttons button:first-child {
+  display:block;
+  width:100%;
+  height:50px;
+  border:2px solid #f4512c;
   background-color:#fff;
+  box-sizing:border-box;
+  color:#f4512c;
+  font-size:16px;
+  font-weight:bold;
+  text-decoration:none;
+  text-align:center;
 }
 </style>
 
@@ -48,7 +56,7 @@
     <div class="buttons">
       <button type="submit">로그인</button>
     </div>
-    <p><a href="#">비밀번호를 잊어버렸나요?</a> | <a href="/join">회원가입</a></p>
+    <p><!-- <a href="#">비밀번호를 잊어버렸나요?</a> |  --><a href="/join">회원가입</a></p>
   </form>
   {%- elsif include.action == 'join' -%}
   <form id="join">
@@ -59,11 +67,12 @@
     </fieldset>
     <fieldset>
       <input type="text" name="name" placeholder="성함을 입력해주세요.">
-      <input type="tel" name="tel" placeholder="휴대전화번호를 입력해주세요.">
+      <!-- <input type="tel" name="tel" placeholder="휴대전화번호를 입력해주세요."> -->
     </fieldset>
     <div class="buttons">
       <button type="submit">회원가입</button>
     </div>
+    <p><a href="/login">로그인</a></p>
   </form>
   {%- endif -%}
 </div>
@@ -78,7 +87,7 @@ $('form').on('submit', function (event) {
   var password = $form.find('[name="password"]').val();
   var passwordRepeat = $form.find('[name="password-repeat"]').val();
   var name = $form.find('[name="name"]').val();
-  var tel = $form.find('[name="tel"]').val();
+  // var tel = $form.find('[name="tel"]').val();
   // Validation
   if (email.length < 4) {
     alert('이메일 주소를 올바르게 입력해주세요.');
@@ -97,10 +106,10 @@ $('form').on('submit', function (event) {
       alert('성함을 올바르게 입력해주세요.');
       return false;
     }
-    if (tel.length < 9) {
-      alert('휴대전화번호를 올바르게 입력해주세요.');
-      return false;
-    }
+    // if (tel.length < 9) {
+    //   alert('휴대전화번호를 올바르게 입력해주세요.');
+    //   return false;
+    // }
   }
   switch (formAction) {
     case 'login':
@@ -122,8 +131,8 @@ $('form').on('submit', function (event) {
           schemaKey: 'users',
           data: {
             uid: response.user.uid,
-            name: name,
-            tel: tel
+            name: name
+            // tel: tel
           }
         })
         .then(function () {
