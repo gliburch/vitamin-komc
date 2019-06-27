@@ -32,10 +32,11 @@
 </div>
 
 <script>
+var category = '{{ include.category }}';
 app.content.getByField({
   schemaKey: 'articles',
   field: 'category',
-  value: '{{ include.category }}',
+  value: category,
   orderByChild: 'created',
   populate: true
 }).then(function (data) {

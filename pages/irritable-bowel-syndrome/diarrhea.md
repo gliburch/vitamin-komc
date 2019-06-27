@@ -6,25 +6,6 @@ title: 설사형
 permalink: /irritable-bowel-syndrome/diarrhea
 ---
 
-<style>
-.page-content,
-.content-heading,
-.content-caution p,
-.content-iconcard p,
-.call-to-action a, .call-to-action button {
-  font-size:17px;
-}
-main > h3,
-.content-heading strong,
-.content-caution h3,
-.content-iconcard h3 {
-  font-size:19px;
-}
-.content-heading small {
-  font-size:14px;
-}
-</style>
-
 <h2 class="content-heading">
   <small>설사형 가스형 장명/실금 통증형</small>
   <strong>과민대장증후군</strong> 설사형
