@@ -1,13 +1,13 @@
 ---
 layout: page
-category: 4-청소년 클리닉
+category: 4-수험생클리닉
 order: 1
 title: 긴장시험불안
 permalink: /adolescence/tension
 ---
 
 <h2 class="content-heading">
-  <strong>청소년 클리닉</strong> 긴장시험불안
+  <strong>수험생클리닉</strong> 긴장시험불안
 </h2>
 
 <figure>
