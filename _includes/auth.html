@@ -93,6 +93,7 @@ $('form').on('submit', function (event) {
   var passwordRepeat = $form.find('[name="password-repeat"]').val();
   var name = $form.find('[name="name"]').val();
   // var tel = $form.find('[name="tel"]').val();
+  var agreement = $form.find('input[name="agreement"]').prop('checked');
   // Validation
   if (email.length < 4) {
     alert('이메일 주소를 올바르게 입력해주세요.');
@@ -115,6 +116,10 @@ $('form').on('submit', function (event) {
     //   alert('휴대전화번호를 올바르게 입력해주세요.');
     //   return false;
     // }
+    if (!agreement) {
+      alert('이용약관 및 개인정보취급방침 동의를 확인해주세요.');
+      return false;
+    }
   }
   switch (formAction) {
     case 'login':
