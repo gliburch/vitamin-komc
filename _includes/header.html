@@ -16,6 +16,17 @@
   display:block;
   height:16px;
 }
+.site-header .btn-login,
+.site-header .btn-logout {
+  position:absolute;
+  top:10px;
+  right:25px;
+  height:30px;
+  border:none;
+  background:none;
+  outline:none;
+  cursor:pointer;
+}
 </style>
 
 <header class="site-header">
@@ -83,4 +94,37 @@
 
   {%- include nav-pages.html -%}
 
+  <button class="btn-login" type="button" style="display:none">로그인</button>
+  <button class="btn-logout" type="button" style="display:none">로그아웃</button>
+
 </header>
+<script>
+firebase.auth().onAuthStateChanged(function (user) {
+  if (user) {
+    app.content.getByField({
+      schemaKey: 'users',
+      field: 'uid',
+      value: user.uid,
+      populate: true
+    }).then(function (data) {
+      var me = data[Object.keys(data)[0]];
+      $('.site-header .btn-logout').text(me.name + '님 로그아웃');
+    });
+    //
+    $('.site-header .btn-login').hide();
+    $('.site-header .btn-logout').show();
+  } else {
+    $('.site-header .btn-login').show();
+    $('.site-header .btn-logout').hide();
+  }
+});
+$('.site-header .btn-login').on('click', function () {
+  location.href = '/login';
+});
+$('.site-header .btn-logout').on('click', function () {
+  firebase.auth().signOut().then(function() {
+    alert('로그아웃 하였습니다.');
+    location.reload();
+  });
+});
+</script>
