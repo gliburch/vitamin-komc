@@ -17,12 +17,10 @@ title: 비타민한의원
 logo: /assets/logo-default.svg
 email: vitagn@vitahani.com
 description: >- # this means to ignore newlines until "baseurl:"
-  서울특별시 서초구 강남대로 341 삼원빌딩 5층 │ TEL : 02-2088-1220
-  의료기관명 : 바이플랜한의원 │ 사업자 등록번호 : 874-91-00388 │ 대표자 : 김병일외1명
-
-  Copyright © 2017 바이플랜한의원 All rights reserved.
+  비타민한의원이 특병한 이유, 통합의학 치료법입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-53073981-14
 
 # Build settings
 markdown: kramdown
