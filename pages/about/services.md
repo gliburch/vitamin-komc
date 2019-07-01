@@ -23,9 +23,11 @@ permalink: /about/services
   </p>
 </div>
 
+<!--
 <figure>
   <img src="https://via.placeholder.com/1920x1080?text=Video Embed" alt="">
 </figure>
+-->
 
 <div class="content-sculptpost">
   <h3>비타민 한의원이 특별한 이유</h3>

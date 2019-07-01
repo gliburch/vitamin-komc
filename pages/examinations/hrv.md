@@ -2,7 +2,7 @@
 layout: page
 category: 2-검사안내
 order: 5
-title: hrv
+title: HRV
 permalink: /examinations/hrv
 ---
 
