@@ -72,8 +72,8 @@ permalink: /irritable-bowel-syndrome/diarrhea
   <p>스트레스와 체내 독소를 확인하는 <mark>모발미네랄 검사</mark></p>
 </div>
 <div class="content-casecard">
-  <figure><img src="https://via.placeholder.com/438x210" alt=""></figure>
-  <p>음식 알러지를 확인하는 <mark>IgG 222 검사</mark></p>
+  <figure><img src="/assets/20190617105946.jpg" alt=""></figure>
+  <p>몸에서 안받는 음식을 파악하는 <mark>알레르기 검사</mark></p>
 </div>
 <div class="content-casecard">
   <figure><img src="/assets/20190617105953.jpg" alt=""></figure>

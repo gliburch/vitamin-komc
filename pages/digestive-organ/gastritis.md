@@ -73,7 +73,7 @@ permalink: /digestive-organ/gastritis
 </div>
 <div class="content-casecard">
   <figure><img src="/assets/20190617105946.jpg" alt=""></figure>
-  <p>몸에서 안받는 음식을 파악하는 <mark>음식물 알레르기 검사</mark></p>
+  <p>몸에서 안받는 음식을 파악하는 <mark>알레르기 검사</mark></p>
 </div>
 <div class="content-casecard">
   <figure><img src="/assets/20190617105953.jpg" alt=""></figure>
