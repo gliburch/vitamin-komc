@@ -90,5 +90,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
 
 <h3 style="text-align:center">직접 <strong>치료 후기와 치료사례</strong>를 살펴보세요!</h3>
 <figure>
-  <img src="https://via.placeholder.com/1920x1080?text=Video Embed" alt="">
+  <a href="/about/review">
+    <img src="/assets/img-goreview.jpg" alt="치료 후기와 사례 보기">
+  </a>
 </figure>

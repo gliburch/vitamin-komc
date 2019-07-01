@@ -89,3 +89,9 @@ permalink: /adolescence/physical
 <hr>
 
 {%- include nutrition-care.html -%}
+
+<figure>
+  <a href="/about/review">
+    <img src="/assets/img-goreview.jpg" alt="치료 후기와 사례 보기">
+  </a>
+</figure>

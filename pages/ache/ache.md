@@ -114,3 +114,9 @@ permalink: /ache
 
 <h4>탕약</h4>
 <p>만성적인 통증에는 한약이 합리적인 선택이 될 수 있습니다. 디스크, 관절질환 등 다양한 만성 통증을 한약으로 치료해보세요.</p>
+
+<figure>
+  <a href="/about/review">
+    <img src="/assets/img-goreview.jpg" alt="치료 후기와 사례 보기">
+  </a>
+</figure>
