@@ -11,7 +11,7 @@ permalink: /about/nutrition-care
 </h2>
 
 <figure>
-  <img src="/assets/20190625091257.jpg" alt="">
+  <img src="/assets/20190702085946.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">통합의학진료에서 중요한 치료의 한 축<br><strong>영양 처방과 식단</strong></h3>
@@ -23,21 +23,21 @@ permalink: /about/nutrition-care
 <h3 style="text-align:center">비타민한의원의 영양 처방 시스템</h3>
 
 <figure>
-  <img src="https://via.placeholder.com/1920x1080?text=VitaHani" alt="">
+  <img src="/assets/20190702090023.jpg" alt="">
 </figure>
 
 <h4>기능의학 검사를 바탕으로 한 과학적인 영양치료</h4>
 <p>기능의학검사, 혈중지질/혈당 검사, 유전자검사, 유기산 검사, 모발미네랄 검사, 타액 호르몬 검사, 항암면역식단검사(LAM)</p>
 
 <figure>
-  <img src="https://via.placeholder.com/1920x1080?text=VitaHani" alt="">
+  <img src="/assets/20190702090030.jpg" alt="">
 </figure>
 
 <h4>음증상에 따른 1:1 맞춤 영양관리</h4>
 <p>현재 몸 상태, 질환, 개인별 식습관을 고려한 맞춤식단을 찾아 관리해드립니다.</p>
 
 <figure>
-  <img src="https://via.placeholder.com/1920x1080?text=VitaHani" alt="">
+  <img src="/assets/20190702090038.jpg" alt="">
 </figure>
 
 <h4>필요한 영양제만 추천</h4>
