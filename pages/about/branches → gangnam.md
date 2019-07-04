@@ -66,9 +66,9 @@ permalink: /about/branches/gangnam
 <h3>진료 시간</h3>
 <p>
   <strong style="display:inline-block; width:80px">월요일~금요일</strong>
-  10:00~21:00<br> 
+  11:00~20:00<br> 
   <strong style="display:inline-block; width:80px">토요일</strong>
-  10:00~14:00<br>
+  10:00~14:30<br>
   <span style="color:#e02020">일요일 및 공휴일 휴진</span>
 </p>
 
