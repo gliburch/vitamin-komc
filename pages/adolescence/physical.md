@@ -67,9 +67,9 @@ permalink: /adolescence/physical
   <big>잠깐!</big><br>
   밥도 잘 먹고 속 안좋은 것도 아닌데,<br>위와 장이 왜 중요할까요?
 </h3>
-<figure>
+/* <figure>
   <img src="https://via.placeholder.com/1920x1080?text=Video Embed" alt="" />
-</figure>
+</figure> */
 
 <div class="content-casecard">
   <figure><img src="/assets/20190617103735.jpg" alt=""></figure>
