@@ -20,7 +20,7 @@ permalink: /adolescence/physical
 <div class="content-caution">
   <h3>
     <img src="/assets/icon-warning.svg" alt="">
-    집중력 저하 증상! 
+    체력 저하 증상! 
   </h3>
   <p>
     자도자도 피곤하다<br>
