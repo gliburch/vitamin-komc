@@ -84,7 +84,7 @@ permalink: /adolescence/physical
   <p>장속 유익균, 유해균 분포를 파악하는 <mark>장내미생물 검사</mark></p>
 </div>
 
-{%- include medicine-care.html -%}
+{%- include medicine-care.html subject="위장 건강 회복의 <strong>핵심, 한약</strong>" content="만성 위염은 병의 진행 정도에 따라 다양한 모습을 나타나냅니다. <strong>표재성, 위축성, 장상피화생 등 현재 상태에 맞는 정확한 처방이 치료의 핵심</strong>이라 할 수 있습니다. 비타민 한의원에서는 일률적으로 대량 만들어서 사용하는 처방이 아닌, 환자의 상태에 맞춘 나만의 맞춤 처방을 활용하고 있습니다. 짧은 처방 주기를 통해 몸 상태가 나아지면 약도 따라서 계속 변화시켜 병을 끝까지 추적하고 치료합니다." -%}
 
 <hr>
 
