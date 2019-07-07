@@ -59,6 +59,7 @@ permalink: /irritable-bowel-syndrome/gas
 </div>
 
 <h3 style="text-align:center">이렇게 해결합니다</h3>
+<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3>
 <div class="content-casecard">
   <figure><img src="/assets/20190617103735.jpg" alt=""></figure>
   <p>내 몸의 영양 상태를 파악하여<br>위 영향을 확인하는 <mark>유기산 검사</mark></p>
