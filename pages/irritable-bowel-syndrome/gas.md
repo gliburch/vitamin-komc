@@ -57,9 +57,9 @@ permalink: /irritable-bowel-syndrome/gas
   </h3>
   <p>직접적인 장 운동 정상화로 가스 조절은 물론,<br>위 up 과 뇌 up 을 통해 더욱 치료 효과를 강하고 오래 지속되게 합니다</p>
 </div>
-
-<h3 style="text-align:center">이렇게 해결합니다</h3>
-<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3>
+<br><br>
+<h3 style="text-align:center">이렇게 해결합니다</h3><br><br>
+<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
 <div class="content-casecard">
   <figure><img src="/assets/20190617103735.jpg" alt=""></figure>
   <p>내 몸의 영양 상태를 파악하여<br>위 영향을 확인하는 <mark>유기산 검사</mark></p>
