@@ -22,6 +22,20 @@
   height:100%;
   background-color:rgba(0,0,0,0.25);
 }
+.swiper-slide img {
+  display:block;
+  width:100%;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  width:20px;
+  height:2px;
+  border-radius:0;
+  margin:0 3px;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color:#fff;
+  background-color:rgba(255,255,255,0.8);
+}
 .slide-message {
   position:absolute;
   top:50%;
@@ -72,14 +86,22 @@
     </div>
   </div>
   <!-- Add Pagination -->
-  <!-- <div class="swiper-pagination"></div> -->
+  <div class="swiper-pagination"></div>
   <!-- Add Arrows -->
-  <!-- <div class="swiper-button-next"></div> -->
-  <!-- <div class="swiper-button-prev"></div> -->
+  <div class="swiper-button-next swiper-button-white" style="background:none">
+    <img src="/assets/btn-arrow-right.svg" alt="이전">
+  </div>
+  <div class="swiper-button-prev swiper-button-white" style="background:none">
+    <img src="/assets/btn-arrow-left.svg" alt="다음">
+  </div>
 </div>
 <script>
 var swiper = new Swiper('.swiper-container', {
   loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: true,
+  },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
