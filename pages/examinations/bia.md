@@ -19,5 +19,5 @@ permalink: /examinations/bia
 
 <div class="content-definition">
   <h3>추천 상황</h3>
-  <p>소화 불량, 장내 가스 문제, 잦은 설사, 변비, 집중력 저하, 잔병치레, 두통, 지속되는 피로감 등</p>
+  <p>만성 질환이 있을 경우, 컨디션 저하가 느껴질 때, 몸이 느리게 회복할 때 등</p>
 </div>
