@@ -88,7 +88,7 @@ permalink: /adolescence/physical
   <p>장속 유익균, 유해균 분포를 파악하는 <mark>장내미생물 검사</mark></p>
 </div>
 <hr>
-{%- include medicine-care.html subject="가스 제거의 <strong>핵심, 한약</strong>" content="우황청심원, 공진단, 보중익기탕 등 효과가 입증된 다양한 한약을 상태에 알맞게 활용합니다. 그냥 있는 약 주는 것 정도가 아닌, 환자의 상태에 맞춰 <strong>한번을 사용하더라도 체력이 좋아질 수 있게</strong> 맞춤 처방으로 업그레이드하여 활용하고 있습니다." -%}
+{%- include medicine-care.html subject="체력 향상의 <strong>핵심, 한약</strong>" content="우황청심원, 공진단, 보중익기탕 등 효과가 입증된 다양한 한약을 상태에 알맞게 활용합니다. 그냥 있는 약 주는 것 정도가 아닌, 환자의 상태에 맞춰 <strong>한번을 사용하더라도 체력이 좋아질 수 있게</strong> 맞춤 처방으로 업그레이드하여 활용하고 있습니다." -%}
 
 <hr>
 
