@@ -33,7 +33,7 @@ permalink: /adolescence/tension
 
 <h3 style="text-align:center">왜! 긴장, 불안으로 시험을 망칠까요?</h3>
 <p>착하고 마음이 여린 학생 중에 긴장, 스트레스에 대한 감수성이 높은 사람들이 있습니다. 이는 대부분 오랜 시간 누적된 과로나 긴장으로 스트레스 저항력이 떨어진 경우입니다. <strong style="color:#f4512c">뇌 up</strong>을 통해 스트레스 저항력을 높여주세요.</p>
-<p>한의학에는 '심담허겁' 이라는 표현이 있습니다. 몸이 허하고 체력이 부족한 것이 두려움과 긴장을 이겨내는 것을 방해한다는 이야기입니다. 이럴 때 <strong style="color:#f4512c">위 up></strong>을 통해 강건한 체력을 키워주세요.</p>
+<p>한의학에는 '심담허겁' 이라는 표현이 있습니다. 몸이 허하고 체력이 부족한 것이 두려움과 긴장을 이겨내는 것을 방해한다는 이야기입니다. 이럴 때 <strong style="color:#f4512c">위 up</strong>을 통해 강건한 체력을 키워주세요.</p>
 <p>불안하지 않아도 될 상황에서 나타나는 불안, 너무 일찍부터 시작되는 긴장감은 장기능 저하로 우울감과 불안감이 항진된 경우 많이 나타납니다. <strong style="color:#f4512c">장 up</strong>을 통해 정서 안정을 도와주세요.</p>
 
 <h3 style="text-align:center">수험생을 위한 <strong>뇌UP &nbsp; 위UP &nbsp; 장UP</strong>이 필요합니다!</h3>
@@ -67,11 +67,13 @@ permalink: /adolescence/tension
   밥도 잘 먹고 속 안좋은 것도 아닌데,<br>위와 장이 왜 중요할까요?
 </h3>
 
-<figure>
-  <img src="https://via.placeholder.com/1920x1080?text=Video Embed" alt="" />
-</figure>
+<p>두뇌 기능 향상에 중요한 것이 많이 있겠지만, 그 중 핵심은 <strong>적절한 영양 공급과 독소 제거</strong>입니다. 적절한 영양 공급은 위장이 잘 움직이고 혈류를 과도하게 뺏어가지 않아야 가능한 일입니다. 속이 안좋으면 식곤증이 오는 것처럼 위장에 이상이 있으면 혈액 순환을 방해하여 두뇌에 영양, 산소 공급이 부족해질 수 있습니다.<br>
+두뇌에 영향을 주는 독소, 노폐물은 대장 기능과 관련이 많습니다. 장 기능이 떨어져 장누수가 일어나면 직접적으로 두뇌에 독소가 쌓이게 되고 두뇌 활동의 노폐물은 배변 활동을 통해 처리되기도 하기 때문이죠. 그 외에 정서, 호르몬 등 주고 받는 영향이 매우 커서 장이 제 2의 두뇌라고까지 이야기하기도 한답니다.
+</p>
 
-<h3 style="text-align:center">공부 체력, 이렇게 강화합니다!</h3>
+<h3 style="text-align:center">긴장 불안, 이렇게 해결합니다!</h3>
+<br><br>
+<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
 <div class="content-casecard">
   <figure><img src="/assets/20190617103735.jpg" alt=""></figure>
   <p>내 몸의 영양 상태를 파악하여<br>위 영향을 확인하는 <mark>유기산 검사</mark></p>
@@ -83,7 +85,8 @@ permalink: /adolescence/tension
 <div class="content-casecard">
   <figure><img src="/assets/20190617105953.jpg" alt=""></figure>
   <p>장속 유익균, 유해균 분포를 파악하는 <mark>장내미생물 검사</mark></p>
-</div>
+</div><hr>
+{%- include medicine-care.html subject="긴장, 불안 제거의 <strong>핵심, 한약</strong>" content="천왕보심단, 우황청심원, 공진단, 총명탕 등 효과가 입증된 다양한 한약을 상태에 알맞게 활용합니다. 그냥 있는 약 주는 것 정도가 아닌, 환자의 상태에 맞춰 업그레이드 된 처방을 활용하고 있습니다." -%}
 
 {%- include medicine-care.html -%}
 
