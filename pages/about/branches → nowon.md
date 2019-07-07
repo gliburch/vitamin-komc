@@ -61,8 +61,10 @@ permalink: /about/branches/nowon
 
 <h3>진료 시간</h3>
 <p>
-  <strong style="display:inline-block; width:80px">월요일~금요일</strong>
+  <strong style="display:inline-block; width:80px">월수목</strong>
   09:00~19:00<br> 
+  <strong style="display:inline-block; width:80px">화 금</strong>
+  09:00~18:00<br>
   <strong style="display:inline-block; width:80px">토요일</strong>
   09:00~14:00<br>
   <strong style="display:inline-block; width:80px">점심시간</strong>
