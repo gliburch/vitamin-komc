@@ -17,7 +17,7 @@ title: 비타민한의원
 logo: /assets/logo-default.svg
 email: vitagn@vitahani.com
 description: >- # this means to ignore newlines until "baseurl:"
-  비타민한의원이 특병한 이유, 통합의학 치료법입니다.
+  비타민한의원이 특별한 이유, 통합의학 치료법입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-53073981-14
