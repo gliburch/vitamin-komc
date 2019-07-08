@@ -15,7 +15,7 @@ permalink: /ache
 <div class="content-important">
   <mark>
     치료, 상병에 따라<br>
-    자동차보험, 건강보험, 상해보험, 실손보험 적용 가능합니다!!
+    자동차보험, 건강보험, 상해보험, 실손보험 <br>적용 가능합니다!!
   </mark>
 </div>
 
