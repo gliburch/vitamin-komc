@@ -50,7 +50,7 @@ permalink: /irritable-bowel-syndrome/visceral
     <img src="/assets/icon-up-brain.svg" alt="">
     뇌UP
   </h3>
-  <p>긴장과 스트레스로 억압된 장 활동성을 풀어줘 가스가 고이지 않게 도와줍니다.</p>
+  <p>긴장과 스트레스로 억압된 장 활동성을 풀어줘 <br>가스가 고이지 않게 도와줍니다.</p>
 </div>
 <div class="content-iconcard">
   <h3>
