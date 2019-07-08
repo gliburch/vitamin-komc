@@ -52,7 +52,7 @@ permalink: /adolescence/tension
     <img src="/assets/icon-up-stomach.svg" alt="">
     위UP
   </h3>
-  <p>힘이 넘친다면 자신감이 생기고 불안, 긴장을 이겨낼 수 있습니다.</p>
+  <p>힘이 넘친다면 자신감이 생기고 <br>불안, 긴장을 이겨낼 수 있습니다.</p>
 </div>
 <div class="content-iconcard">
   <h3>
