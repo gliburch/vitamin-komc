@@ -41,21 +41,21 @@ permalink: /irritable-bowel-syndrome/gas
     <img src="/assets/icon-up-stomach.svg" alt="">
     위UP
   </h3>
-  <p>올바른 식습관과 건강한 위장기능이 장내 가스 발생 요소를 줄여주고<br>복압을 낮춰 가스를 덜 차고 편안하게 만들어줍니다</p>
+  <p>올바른 식습관과 건강한 위장기능이 장내 가스 발생 요소를 줄여주고 복압을 낮춰 가스를 덜 차고 편안하게 만들어줍니다</p>
 </div>
 <div class="content-iconcard">
   <h3>
     <img src="/assets/icon-up-brain.svg" alt="">
     뇌UP
   </h3>
-  <p>긴장과 스트레스로 억압된 장 활동성을 풀어줘<br>가스가 고이지 않게 도와줍니다.</p>
+  <p>긴장과 스트레스로 억압된 장 활동성을 풀어줘 가스가 고이지 않게 도와줍니다.</p>
 </div>
 <div class="content-iconcard">
   <h3>
     <img src="/assets/icon-up-bowels.svg" alt="">
     장UP
   </h3>
-  <p>직접적인 장 운동 정상화로 가스 조절은 물론,<br>위 up 과 뇌 up 을 통해 더욱 치료 효과를 강하고 오래 지속되게 합니다</p>
+  <p>직접적인 장 운동 정상화로 가스 조절은 물론, 위 up 과 뇌 up 을 통해 더욱 치료 효과를 강하고 오래 지속되게 합니다</p>
 </div>
 <br><br>
 <h3 style="text-align:center">이렇게 해결합니다</h3><br><br>
