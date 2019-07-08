@@ -50,7 +50,8 @@ permalink: /about/services
   <ul>
   <li><time>2012.3</time> 한의학, 대체의학 중심의 서울한의원 오픈</li>
   <li><time>2017.6</time> 통합의학 중심의 바이플랜 한의원으로 오픈</li>
-  <li><time>2019.5</time> 통합의학과 전인적 치료 중심의 비타민한의원 리뉴얼 오픈</li>
+  <li><time>2019.5</time> 통합의학과 전인적 치료 중심의 
+   <br>        비타민한의원 리뉴얼 오픈</li>
   <li><time>2019.6</time> 비타민한의원 노원점 오픈</li>
   </ul>
 </div>
