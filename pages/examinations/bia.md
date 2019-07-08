@@ -19,5 +19,5 @@ permalink: /examinations/bia
 
 <div class="content-definition">
   <h3>추천 상황</h3>
-  <p>만성 질환이 있을 경우, 컨디션 저하가 느껴질 때, 몸이 느리게 회복할 때 등</p>
+  <p>만성 질환이 있을 경우, 컨디션 저하가 느껴질 때, <br>몸이 느리게 회복할 때 등</p>
 </div>
