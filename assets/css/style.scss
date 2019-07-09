@@ -12,7 +12,7 @@
 body {
   font-family:'Noto Sans KR', sans-serif;
   color:#212b36;
-  font-size:14px;
+  font-size:16px;
   text-size-adjust:none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -40,7 +40,7 @@ blockquote {
 }
 .page-content {
   padding:0;
-  font-size:14px;
+  font-size:16px;
   flex:auto;
 }
 @media (min-width:601px) {
@@ -61,7 +61,7 @@ main > h2 {
 main > h3 {
   margin:25px 25px 15px;
   color:#313643;
-  font-size:16px;
+  font-size:18px;
   letter-spacing:-1.4px;
 }
 main > h3 strong {
@@ -72,13 +72,13 @@ main > h5,
 main > h6 {
   margin:25px 25px 15px;
   color:#313643;
-  font-size:14px;
+  font-size:16px;
   letter-spacing:-1.4px;
 }
 main > p {
   margin:15px 25px;
   line-height:150%;
-  letter-spacing:-1.2px;
+  /*letter-spacing:-1.2px;*/
   text-align:justify;
   color:#212b36;
 }
@@ -103,7 +103,7 @@ main > iframe {
   background-color:#fff;
   box-sizing:border-box;
   color:#f4512c;
-  font-size:14px;
+  font-size:16px;
   letter-spacing:-1.4px;
   text-decoration:none;
   text-align:center;
@@ -155,14 +155,14 @@ main > iframe {
 .content-heading {
   padding:25px 0 15px;
   color:#555;
-  font-size:16px;
+  font-size:18px;
   font-weight:normal;
   letter-spacing:-1.6px;
   text-align:center;
 }
 .content-heading small {
   display:block;
-  font-size:12px;
+  font-size:14px;
   letter-spacing:-1.2px;
   color:#fc9a0d;
 }
@@ -243,7 +243,7 @@ main > iframe {
   background:#f9fafb url(../img-watermark-half.svg) 100% 100% no-repeat;
 }
 .content-history h3 {
-  font-size:16px;
+  font-size:18px;
   letter-spacing: -1.4px;
   color:#000;
 }
@@ -274,7 +274,7 @@ main > iframe {
   padding:20px 8px;
   border:1px solid #f4512c;
   color:#f4512c;
-  font-size:14px;
+  font-size:16px;
   letter-spacing:-1.4px;
   text-align:center;
 }
@@ -291,7 +291,7 @@ main > iframe {
   text-align:center;
 }
 .content-caution h3 {
-  font-size:16px;
+  font-size:18px;
   letter-spacing:-1.4px;
   color:#fff;
 }
@@ -301,7 +301,7 @@ main > iframe {
 }
 .content-caution p {
   margin-top:15px;
-  font-size:14px;
+  font-size:16px;
   line-height:150%;
   letter-spacing:-1.2px;
   color:#fff;
@@ -317,7 +317,7 @@ main > iframe {
   margin-top:-18px;
 }
 .content-iconcard h3 {
-  font-size:14px;
+  font-size:16px;
   line-height:150%;
   letter-spacing:-1.2px;
   color:#f4512c;
@@ -328,7 +328,7 @@ main > iframe {
 }
 .content-iconcard p {
   margin-top:8px;
-  font-size:12px;
+  font-size:14px;
   line-height:150%;
   letter-spacing:-1.2px;
   color:#212b36;
@@ -378,7 +378,7 @@ main > iframe {
   margin-top:4px;
   background:none;
   color:#000;
-  font-size:14px;
+  font-size:16px;
   font-weight:bold;
   letter-spacing:-1.4px;
 }
@@ -396,7 +396,7 @@ main > iframe {
 }
 .content-definition p {
   margin-top:10px;
-  font-size:14px;
+  font-size:16px;
   line-height:150%;
   letter-spacing:-1.2px;
   text-align:justify;
@@ -414,7 +414,7 @@ main > iframe {
   height:40px;
   line-height:40px;
   background-color:#b5b5b5;
-  font-size:14px;
+  font-size:16px;
   letter-spacing:-1.4px;
   color:#fff;
   font-weight:bold;
@@ -439,7 +439,7 @@ main > iframe {
   background-color:#fff;
   box-sizing:border-box;
   color:#f4512c;
-  font-size:14px;
+  font-size:16px;
   letter-spacing:-1.4px;
   text-indent:-10px;
   text-decoration:none;
@@ -499,8 +499,7 @@ main > iframe {
   zoom:1;
   display:inline-block;
   position:relative;
-  width:66px;
-  font-size:10px;
+  width:20%;
   vertical-align:middle;
 }
 .featured-links li:before {
@@ -528,7 +527,7 @@ main > iframe {
 .featured-links li span {
   display:block;
   opacity:0.7;
-  font-size:8px;
+  font-size:12px;
   font-weight:500;
   line-height:125%;
   letter-spacing:-0.8px;
@@ -561,14 +560,14 @@ main > iframe {
 }
 .featured-articles dl dd strong {
   display:block;
-  font-size:14px;
+  font-size:16px;
   font-weight:500;
   letter-spacing:-1px;
   color:#313643;
 }
 .featured-articles dl dd p {
   margin-top:2px;
-  font-size:12px;
+  font-size:14px;
   letter-spacing:-0.8px;
   color:#666;
   white-space:normal;
