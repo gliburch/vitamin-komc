@@ -25,9 +25,18 @@ app.content.get({
   orderByChild: 'created',
   populate: true
 }).then(function (data) {
-  $('#banners').empty();
+  // 순서 조정
+  var unorderedData = [];
+  var orderedData = [];
   Object.keys(data).forEach(function (key) {
-    var banner = data[key];
+    unorderedData.push(data[key]);
+  });
+  orderedData = unorderedData.sort(function (a, b) {
+    return a.ordering - b.ordering;
+  });
+  // 데이터 삽입
+  $('#banners').empty();
+  orderedData.forEach(function (banner) {
     var image = (banner.image[0] ? banner.image[0].url : null);
     var title = banner.title;
     var url = banner.url;

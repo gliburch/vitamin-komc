@@ -54,9 +54,18 @@ app.content.getByField({
   orderByChild: 'created',
   populate: true
 }).then(function (data) {
-  $('#featured-reviews').empty();
+  // 순서 조정
+  var unorderedData = [];
+  var orderedData = [];
   Object.keys(data).forEach(function (key) {
-    var article = data[key];
+    unorderedData.push(data[key]);
+  });
+  orderedData = unorderedData.sort(function (a, b) {
+    return a.ordering - b.ordering;
+  });
+  // 데이터 삽입
+  $('#featured-reviews').empty();
+  orderedData.forEach(function (article) {
     var thumbnail = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
     var title = article.title;
     var desc = article.desc;
@@ -86,12 +95,20 @@ app.content.getByField({
   schemaKey: 'featured',
   field: 'display',
   value: 'study',
-  orderByChild: 'created',
   populate: true
 }).then(function (data) {
-  $('#featured-studies').empty();
+  // 순서 조정
+  var unorderedData = [];
+  var orderedData = [];
   Object.keys(data).forEach(function (key) {
-    var article = data[key];
+    unorderedData.push(data[key]);
+  });
+  orderedData = unorderedData.sort(function (a, b) {
+    return a.ordering - b.ordering;
+  });
+  // 데이터 삽입
+  $('#featured-studies').empty();
+  orderedData.forEach(function (article) {
     var thumbnail = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
     var title = article.title;
     var desc = article.desc;
