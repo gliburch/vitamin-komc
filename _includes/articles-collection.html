@@ -37,7 +37,6 @@ app.content.getByField({
   schemaKey: 'articles',
   field: 'category',
   value: category,
-  orderByChild: 'created',
   populate: true
 }).then(function (data) {
   // 순서 조정

@@ -51,7 +51,6 @@ app.content.getByField({
   schemaKey: 'featured',
   field: 'display',
   value: 'review',
-  orderByChild: 'created',
   populate: true
 }).then(function (data) {
   // 순서 조정
