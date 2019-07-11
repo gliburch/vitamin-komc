@@ -21,8 +21,7 @@
 </div>
 <script>
 app.content.get({
-  schemaKey: 'banners',
-  populate: true
+  schemaKey: 'banners'
 }).then(function (data) {
   // 순서 조정
   var unorderedData = [];
@@ -36,15 +35,24 @@ app.content.get({
   // 데이터 삽입
   $('#banners').empty();
   orderedData.forEach(function (banner) {
-    var image = (banner.image[0] ? banner.image[0].url : null);
+    var imageId = banner.image[0].id;
     var title = banner.title;
     var url = banner.url;
     var markupSrc = [
       '<a href="' + url +'">',
-      '<img src="' + image + '" alt="' + title + '">',
+      '<img id="' + imageId + '" src="https://via.placeholder.com/920x360?text=..." alt="' + title + '">',
       '</a>'
     ];
     $('#banners').append(markupSrc.join(''));
+  });
+  // 이미지 삽입
+  orderedData.forEach(function (banner) {
+    var imageId = banner.image[0].id;
+    app.storage.getURL({
+      fileId: imageId
+    }).then(function (url) {
+      $('#' + imageId).attr('src', url);
+    });
   });
 });
 </script>

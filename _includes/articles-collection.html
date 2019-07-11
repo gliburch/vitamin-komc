@@ -52,19 +52,28 @@ app.content.getByField({
   $('#articles').empty();
   orderedData.forEach(function (article) {
     var id = article.id;
-    var thumbnail = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
+    var thumbnailId = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].id : '');
     var title = article.title;
     // var content = article.content.substring(0, 35) + (article.content.length > 35 ?  '...' : '');
     var markupSrc = [
       '<div class="article-unit" onclick="location.href = \'/articles?id=' + id + '\'">',
         '<figure>',
-          '<img src="' + thumbnail + '" alt="">',
+          '<img id="' + thumbnailId + '" src="https://via.placeholder.com/300x180?text=..." alt="">',
         '</figure>',
         '<h3>' + title + '</h3>',
         // '<p>' + content + '</p>',
       '</div>'
     ];
     $('#articles').append(markupSrc.join(''));
+  });
+  // 이미지 삽입
+  orderedData.forEach(function (article) {
+    var thumbnailId = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].id : '');
+    app.storage.getURL({
+      fileId: thumbnailId
+    }).then(function (url) {
+      $('#' + thumbnailId).attr('src', url);
+    });
   });
 });
 </script>

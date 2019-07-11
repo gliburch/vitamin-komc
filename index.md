@@ -50,8 +50,7 @@ layout: default
 app.content.getByField({
   schemaKey: 'featured',
   field: 'display',
-  value: 'review',
-  populate: true
+  value: 'review'
 }).then(function (data) {
   // 순서 조정
   var unorderedData = [];
@@ -65,13 +64,13 @@ app.content.getByField({
   // 데이터 삽입
   $('#featured-reviews').empty();
   orderedData.forEach(function (article) {
-    var thumbnail = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
+    var thumbnailId = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].id : '');
     var title = article.title;
     var desc = article.desc;
     var url = (article.article ? '/articles?id=' + article.article.id : '/about/reviews');
     var markupSrc = [
       '<dl onclick="location.href = \'' + url + '\'">',
-      '<dt><img src="' + thumbnail + '" alt=""></dt>',
+      '<dt><img id="' + thumbnailId + '" src="https://via.placeholder.com/300x180?text=..." alt=""></dt>',
       '<dd>',
         '<strong>' + title + '</strong>',
         '<p>' + desc + '</p>',
@@ -79,6 +78,15 @@ app.content.getByField({
       '</dl>'
     ];
     $('#featured-reviews').append(markupSrc.join(''));
+  });
+  // 이미지 삽입
+  orderedData.forEach(function (article) {
+    var thumbnailId = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].id : '');
+    app.storage.getURL({
+      fileId: thumbnailId
+    }).then(function (url) {
+      $('#' + thumbnailId).attr('src', url);
+    });
   });
 });
 </script>
@@ -93,8 +101,7 @@ app.content.getByField({
 app.content.getByField({
   schemaKey: 'featured',
   field: 'display',
-  value: 'study',
-  populate: true
+  value: 'study'
 }).then(function (data) {
   // 순서 조정
   var unorderedData = [];
@@ -108,13 +115,13 @@ app.content.getByField({
   // 데이터 삽입
   $('#featured-studies').empty();
   orderedData.forEach(function (article) {
-    var thumbnail = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].url : 'https://via.placeholder.com/300x180');
+    var thumbnailId = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].id : '');
     var title = article.title;
     var desc = article.desc;
     var url = (article.article ? '/articles?id=' + article.article.id : '/about/study');
     var markupSrc = [
       '<dl onclick="location.href = \'' + url + '\'">',
-      '<dt><img src="' + thumbnail + '" alt=""></dt>',
+      '<dt><img id="' + thumbnailId + '" src="https://via.placeholder.com/300x180?text=..." alt=""></dt>',
       '<dd>',
         '<strong>' + title + '</strong>',
         '<p>' + desc + '</p>',
@@ -122,6 +129,15 @@ app.content.getByField({
       '</dl>'
     ];
     $('#featured-studies').append(markupSrc.join(''));
+  });
+  // 이미지 삽입
+  orderedData.forEach(function (article) {
+    var thumbnailId = (article.thumbnail && article.thumbnail[0] ? article.thumbnail[0].id : '');
+    app.storage.getURL({
+      fileId: thumbnailId
+    }).then(function (url) {
+      $('#' + thumbnailId).attr('src', url);
+    });
   });
 });
 </script>
