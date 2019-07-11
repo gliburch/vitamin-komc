@@ -74,19 +74,12 @@ permalink: /adolescence/attention
 <br><br>
 <h3 style="text-align:center">집중력, 이렇게 강화합니다!</h3>
 <h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
-<div class="content-casecard">
-  <figure><img src="/assets/20190617103735.jpg" alt=""></figure>
-  <p>내 몸의 영양 상태를 파악하여<br>위 영향을 확인하는 <mark>유기산 검사</mark></p>
-</div>
-<div class="content-casecard">
-  <figure><img src="/assets/20190617105915.jpg" alt=""></figure>
-  <p>자율신경계 균형을 파악하여<br>뇌 영향을 확인하는 <mark>HRV 검사</mark></p>
-</div>
-<div class="content-casecard">
-  <figure><img src="/assets/20190617105953.jpg" alt=""></figure>
-  <p>장속 유익균, 유해균 분포를 파악하는 <mark>장내미생물 검사</mark></p>
-</div>
+{%- include examination-items.html item="organic-acid" -%}
+{%- include examination-items.html item="hrv" -%}
+{%- include examination-items.html item="microbe" -%}
+
 <hr>
+
 {%- include medicine-care.html subject="집중력 향상의 <strong>핵심, 한약</strong>" content="총명탕, 공진단, 주자독서환 등 효과가 입증된 다양한 한약을 상태에 알맞게 활용합니다. 그냥 있는 약 주는 것 정도가 아닌, <strong>현재 몸 상태와 체질을 고려한 맞춤 처방으로 업그레이드</strong>하여 활용하고 있습니다." -%}
 
 <hr>

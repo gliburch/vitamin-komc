@@ -62,18 +62,9 @@ permalink: /irritable-bowel-syndrome/visceral
 <br><br>
 <h3 style="text-align:center">장 문제, 이렇게 해결합니다</h3><br><br>
 <h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
-<div class="content-casecard">
-  <figure><img src="/assets/20190617103735.jpg" alt=""></figure>
-  <p>내 몸의 영양 상태를 파악하여<br>위 영향을 확인하는 <mark>유기산 검사</mark></p>
-</div>
-<div class="content-casecard">
-  <figure><img src="/assets/20190617105915.jpg" alt=""></figure>
-  <p>자율신경계 균형을 파악하여<br>뇌 영향을 확인하는 <mark>HRV 검사</mark></p>
-</div>
-<div class="content-casecard">
-  <figure><img src="/assets/20190617105953.jpg" alt=""></figure>
-  <p>장속 유익균, 유해균 분포를 파악하는 <mark>장내미생물 검사</mark></p>
-</div>
+{%- include examination-items.html item="organic-acid" -%}
+{%- include examination-items.html item="hrv" -%}
+{%- include examination-items.html item="microbe" -%}
 
 <hr>
 {%- include medicine-care.html subject="가스 제거의 <strong>핵심, 한약</strong>" content="장 운동성 조절, 가스 줄이는 효과가 입증된 다양한 한약을 상황에 알맞게 활용합니다. 일률적으로 대량 만들어서 사용하는 처방이 아닌, 환자의 상태에 맞춘 개별 맞춤형 처방을 활용하고 있습니다. 짧은 처방 주기를 통해 몸 상태가 나아지면 약도 따라서 계속 변화시켜 병을 끝까지 추적하고 치료합니다." -%}
