@@ -6,8 +6,14 @@ title: 뉴스
 permalink: /about/boards/news
 ---
 
-<h2>
-  <strong>뉴스</strong> &nbsp; / &nbsp; <a href="{{ page.dir }}notice">공지사항</a>
+<div class="tab">
+  <strong>뉴스</strong>
+  <a href="{{ page.dir }}notice">공지사항</a>
+</div>
+
+<h2 class="content-heading">
+  <strong>뉴스</strong>
+  비타민한의원의 다양한 소식들
 </h2>
 
 {%- include articles-collection.html category="news" -%}
