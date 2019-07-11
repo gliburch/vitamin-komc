@@ -59,8 +59,7 @@ var category = '{{ include.category }}';
 app.content.getByField({
   schemaKey: 'articles',
   field: 'category',
-  value: category,
-  populate: true
+  value: category
 }).then(function (data) {
   // 순서 조정
   var unorderedData = [];

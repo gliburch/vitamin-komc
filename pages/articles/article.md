@@ -59,8 +59,7 @@ a.btn-login {
 var articleId = location.href.split('id=')[1];
 app.content.get({
   schemaKey: 'articles',
-  entryId: articleId,
-  populate: true
+  entryId: articleId
 }).then(function (data) {
   $('#content').empty();
   var article = data;

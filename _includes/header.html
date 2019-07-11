@@ -104,8 +104,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     app.content.getByField({
       schemaKey: 'users',
       field: 'uid',
-      value: user.uid,
-      populate: true
+      value: user.uid
     }).then(function (data) {
       var me = data[Object.keys(data)[0]];
       $('.site-header .btn-logout').text(me.name + '님 로그아웃');
