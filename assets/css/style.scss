@@ -335,11 +335,10 @@ main > iframe {
 }
 .content-casecard {
   position:relative;
+  margin:4px 0;
   font-size:0;
   background-color:#f9fafb;
-}
-.content-casecard + .content-casecard {
-  margin-top:4px;
+  cursor:pointer;
 }
 .content-casecard:after {
   display:block;
