@@ -1,7 +1,7 @@
 ---
 layout: page
 category: 1-비타민한의원
-order: 4
+order: 5
 title: 치료후기
 permalink: /about/review
 ---
