@@ -1,7 +1,7 @@
 ---
 layout: page
 category: 1-비타민한의원
-order: 60
+order: 3
 title: 영양관리
 permalink: /about/nutrition-care
 ---
