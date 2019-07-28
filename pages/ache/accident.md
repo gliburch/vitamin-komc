@@ -3,79 +3,117 @@ layout: page
 category: 6-통증질환
 order: 20
 title: 교통사고
-permalink: /ache/accident.md
+permalink: /ache/accident
 ---
 
 <h2 class="content-heading">
-  <small>설사형 가스형 장명/실금 통증형</small>
-  <strong>과민대장증후군</strong> 장명/실금
+  <strong>교통사고 후유증</strong>
 </h2>
 
+<p>교통사고는 우리가 생활에서 겪을 수 있는 가장 흔한 질환이면서도 현대 의학 치료만으로는 명확하게 설명할 수 없는 통증이 나타나는 질환입니다. 때문에 <mark>병원 검사에서는 큰 이상이 없다고 하더라도 알 수 없는 통증이 오래도록</mark> 나타날 수 있습니다.</p>
+
+<div class="content-important">
+  <mark>
+  자동차 보험 적용 가능합니다!!
+  </mark>
+</div>
+
+<h3 style="text-align:center">교통사고 후유증의 원인과 해결 방법</h3>
+
 <figure>
-  <img src="/assets/20190626090019.jpg" alt="">
+  <img src="/assets/20190625081207.jpg" alt="">
 </figure>
 
-<h3 style="text-align:center">남에게 말 못할 고민, 장명과 가스실금</h3>
-<p>배가 부글거리고 시끄러운 소리가 나서 힘드신가요? 시도때도 없이 가스가 새어나오고 본의 아니게 민폐 끼치고 있으신가요? 주변에 고통을 이야기해도 대수롭지 않게 넘어가서 혼자 끙끙 앓는 분들이 많으실겁니다.</p>
-<p>배에서 소리가 심하게 나는 것과 가스가 새는 것은 결국 같은 원인에서 생기는 증상입니다. 내 몸이 표현하는 것은 다르지만 원인이 같기에 치료도 함께 이루어집니다.</p>
-<p>만약 단순히 배에서 소리가 많이나고, 가스가 새어나오는 것에서 끝난다면 다행이지만 이런 증상이 사회생활에 악영향을 끼치고 있고 정신건강에 까지 영향을 주고 있다면 다른 정서질환이 합병되는 경우가 많습니다.</p>
+<h4>후유증의 원인</h4>
+<p>
+  - 목디스크<br>
+  - 거북목 증후군<br>
+  - 흉곽 탈출 증후군, 면관절 증후군<br>
+  - 오십견, 석회성 건염<br>
+  - 근육통<br>
+  - 어깨 충돌 증후군, 회전근개 파열
+</p>
 
-<div class="content-caution">
-  <h3>
-    <img src="/assets/icon-warning.svg" alt="">
-    이런 증상이있다면 빨리 치료받으셔야 합니다.
-  </h3>
-  <p>
-    배에서 소리가 나서 음식을 자주 먹게 되거나 굶게된다<br>
-    배에서 소리가 나서 조용한 곳에 있기가 두렵다<br>
-    가스 냄새가 나를 따라다니는 것 같다<br>
-    주변 사람들이 나만 가면 냄새난다고 한다<br>
-    참지 못하고 가스 새는 느낌이 자주 난다
-  </p>
-</div>
-
-<h3 style="text-align:center">장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
 <figure>
-  <img src="/assets/img-podium-bowels.jpg" alt="">
+  <img src="/assets/20190625081349.jpg" alt="">
 </figure>
-<div class="content-iconcard">
-  <h3>
-    <img src="/assets/icon-up-stomach.svg" alt="">
-    위UP
-  </h3>
-  <p>올바른 식습관과 건강한 위장기능이 장내 가스 발생 요소를 줄여주고 복압을 낮춰 가스를 덜 차고 덜 새게 만들어줍니다.</p>
-</div>
-<div class="content-iconcard">
-  <h3>
-    <img src="/assets/icon-up-brain.svg" alt="">
-    뇌UP
-  </h3>
-  <p>긴장과 스트레스로 억압된 장 활동성을 풀어줘 <br>가스가 고이지 않게 도와줍니다.</p>
-</div>
-<div class="content-iconcard">
-  <h3>
-    <img src="/assets/icon-up-bowels.svg" alt="">
-    장UP
-  </h3>
-  <p>직접적인 장 운동 정상화로 가스 조절은 물론, 위 up 과 뇌 up 을 통해 더욱 치료 효과를 강하고 오래 지속되게 합니다.</p>
-</div>
-<br><br>
-<h3 style="text-align:center">장 문제, 이렇게 해결합니다</h3><br><br>
-<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
-{%- include examination-items.html item="organic-acid" -%}
-{%- include examination-items.html item="hrv" -%}
-{%- include examination-items.html item="microbe" -%}
+
+<h4>허리, 골반</h4>
+<p>
+  - 허리 디스크, 척추관 협착증<br>
+  - 척추 전방 전위증<br>
+  - 근막통증 증후군, 염좌<br>
+  - 좌골신경통, 좌골점액낭염<br>
+  - 천장 관절염, 미골통<br>
+  - 견갑배신경 포착증푸군, 대상포진 후 신경통<br>
+  - 고관절 통증
+</p>
+
+<figure>
+  <img src="/assets/20190625081505.jpg" alt="">
+</figure>
+
+<h4>다리</h4>
+<p>
+  - 무릎의 인대 손상, 무릎 점액낭염, 반월판 손상<br>
+  - 연골연화증, 활액막염<br>
+  - 아킬레스 건염, 비골신경포착<br>
+  - 족저근막염, 발목터널증후군<br>
+  - 발목 관절염
+</p>
+
+<figure>
+  <img src="/assets/20190625081816.jpg" alt="">
+</figure>
+
+<h4>팔</h4>
+<p>
+  - 테니스 엘보, 관절염<br>
+  - 골프 엘보, 주두 점액낭염<br>
+  - 신경포착 증후군<br>
+  - 드퀘르뱅 건초염, 방아쇠 손가락(탄발지)<br>
+  - 손목 터널 증후군
+</p>
 
 <hr>
-{%- include medicine-care.html subject="가스 제거의 <strong>핵심, 한약</strong>" content="장 운동성 조절, 가스 줄이는 효과가 입증된 다양한 한약을 상황에 알맞게 활용합니다. 일률적으로 대량 만들어서 사용하는 처방이 아닌, 환자의 상태에 맞춘 개별 맞춤형 처방을 활용하고 있습니다. 짧은 처방 주기를 통해 몸 상태가 나아지면 약도 따라서 계속 변화시켜 병을 끝까지 추적하고 치료합니다." -%}
 
-<hr>
+<h3 style="text-align:center">다양한 치료법</h3>
 
-{%- include nutrition-care.html -%}
+<div class="wrapper">
+  <figure>
+    <img src="/assets/20190625081951.jpg" alt="">
+  </figure>
+</div>
 
-<hr>
+<h4>추나</h4>
+<p>척추의 배열을 바르게 잡아 허리, 목, 등, 골반 통증을 효율적으로 잡아줍니다. 2019년 4월부터 건강보험, 실비보험 적용 가능합니다.</p>
 
-<h3 style="text-align:center">직접 <strong>치료 후기와 치료사례</strong>를 살펴보세요!</h3>
+<div class="wrapper">
+  <figure>
+    <img src="/assets/20190625082010.jpg" alt="">
+  </figure>
+</div>
+
+<h4>약침</h4>
+<p>한약을 정제하여 직접 아픈 부위에 주입합니다. 경제적으로 한약 효과를 누리실 수 있습니다.</p>
+
+<div class="wrapper">
+  <figure>
+    <img src="/assets/20190625082030.jpg" alt="">
+  </figure>
+</div>
+
+<h4>전자뜸</h4>
+<p>과거의 쑥뜸은 효과는 좋지만, 피부 화상의 위험성과 특유의 냄새와 연기로 인해서 사용이 불편했습니다. 최신의 전기뜸을 통해서 목표온도까지 도달한 후 일정 시간이 지나면 자동으로 꺼지는 전기뜸을 통해 환자분에게 좀 더 안전하고 편리한 치료를 제공할 수 있습니다.</p>
+
+<figure style="position:relative; margin:25px">
+  <img src="/assets/20190624114918.jpg" alt="">
+  <img src="/assets/icon-badge-medicine.svg" alt="" style="position:absolute; right:5px; bottom:-40px">
+</figure>
+
+<h4>탕약</h4>
+<p>만성적인 통증에는 한약이 합리적인 선택이 될 수 있습니다. 디스크, 관절질환 등 다양한 만성 통증을 한약으로 치료해보세요.</p>
+
 <figure>
   <a href="/about/review">
     <img src="/assets/img-goreview.jpg" alt="치료 후기와 사례 보기">
