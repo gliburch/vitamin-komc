@@ -2,8 +2,8 @@
 layout: page
 category: 1-비타민한의원
 order: 3
-title: 영양관리
-permalink: /about/nutrition-care
+title: 안심한약
+permalink: /about/trust
 ---
 
 <h2 class="content-heading">
