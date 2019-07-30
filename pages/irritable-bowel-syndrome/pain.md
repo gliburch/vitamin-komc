@@ -103,6 +103,11 @@ permalink: /irritable-bowel-syndrome/pain
 
 <hr>
 
+{%- include trustbot.html -%}
+
+<hr>
+
+
 <h3 style="text-align:center">직접 <strong>치료 후기와 치료사례</strong>를 살펴보세요!</h3>
 <figure>
   <a href="/about/review">
