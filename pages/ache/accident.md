@@ -21,7 +21,7 @@ permalink: /ache/accident
 <h3 style="text-align:center">교통사고 후유증의 원인과 해결 방법</h3>
 
 <figure>
-  <img src="/assets/20190625081207.jpg" alt="">
+  <img src="/assets/20190730_1.jpg" alt="">
 </figure>
 
 <h4>후유증의 원인</h4>
@@ -30,7 +30,7 @@ permalink: /ache/accident
 </p>
 
 <figure>
-  <img src="/assets/20190625081349.jpg" alt="">
+  <img src="/assets/20190730_2.jpg" alt="">
 </figure>
 
 <h4>어혈</h4>
@@ -39,7 +39,7 @@ permalink: /ache/accident
 </p>
 
 <figure>
-  <img src="/assets/20190625081505.jpg" alt="">
+  <img src="/assets/20190730_3.jpg" alt="">
 </figure>
 
 <h4>평상시의 소인</h4>
@@ -48,7 +48,7 @@ permalink: /ache/accident
 </p>
 
 <figure>
-  <img src="/assets/20190625081816.jpg" alt="">
+  <img src="/assets/20190730_4.jpg" alt="">
 </figure>
 
 <h4>정서적 긴장</h4>
