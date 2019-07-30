@@ -31,6 +31,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
     참기 힘든 느낌으로 급하게 가게 된다
   </p>
 </div>
+<h3 style="text-align:center">통합의학에서 바라본 과민 대장 증후군의 원인</h3>
 
 <h3 style="text-align:center">장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
 <figure>
