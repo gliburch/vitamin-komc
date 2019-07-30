@@ -107,6 +107,12 @@ permalink: /digestive-organ/apepsia
 
 {%- include nutrition-care.html -%}
 
+<hr>
+
+{%- include trustbot.html -%}
+
+<hr>
+
 <figure>
   <a href="/about/review">
     <img src="/assets/img-goreview.jpg" alt="치료 후기와 사례 보기">
