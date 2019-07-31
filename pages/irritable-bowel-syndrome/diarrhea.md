@@ -12,7 +12,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
 </h2>
 
 <figure>
-  <img src="/assets/20190626090250.jpg" alt="">
+  <img src="/assets/20190731_08.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">언제 찾아올지 모르는 공포, 설사</h3>
@@ -31,7 +31,8 @@ permalink: /irritable-bowel-syndrome/diarrhea
     참기 힘든 느낌으로 급하게 가게 된다
   </p>
 </div>
-<h3 style="text-align:center">통합의학에서 바라본 과민 대장 증후군의 원인</h3>
+<h3 style="text-align:center">
+  의학에서 바라본 과민 대장 증후군의 원인</h3>
 <div class="content-sculptpost">
   <blockquote>
     <strong>장내 세균문제</strong><br>
