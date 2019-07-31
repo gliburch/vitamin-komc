@@ -11,7 +11,7 @@ permalink: /about/trust
 </h2>
 
 <figure>
-  <img src="/assets/20190702085946.jpg" alt="">
+  <img src="/assets/20190731_04.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center"><strong>과학적 한약재 관리 시스템</strong></h3>
@@ -20,7 +20,7 @@ permalink: /about/trust
 <hr>
 
 <figure>
-  <img src="/assets/20190702090023.jpg" alt="">
+  <img src="/assets/20190731_05.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center"><strong>차별화된 한약 상담</strong></h3>
@@ -29,7 +29,7 @@ permalink: /about/trust
 <hr>
 
 <figure>
-  <img src="/assets/20190702090030.jpg" alt="">
+  <img src="/assets/20190731_06.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center"><strong>믿을 수 있는 약재와 탕전시스템</strong></h3>
@@ -38,7 +38,7 @@ permalink: /about/trust
 <hr>
 
 <figure>
-  <img src="/assets/20190702090038.jpg" alt="">
+  <img src="/assets/20190731_07.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center"><strong>쉽게 복용 가능한 파우치</strong></h3>
