@@ -12,7 +12,7 @@ permalink: /digestive-organ/leaky-gut
 </h2>
 
 <figure>
-  <img src="/assets/20190626090250.jpg" alt="">
+  <img src="/assets/20190731_03.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">장 때문에 온몸이 다 안좋아요</h3>
