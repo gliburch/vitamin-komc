@@ -100,6 +100,7 @@ function inquireCallme(event) {
   params.branch = $form.find('select[name="branch"]').val();
   params.mentee = $form.find('input[name="mentee"]').val().trim();
   params.tel = String($form.find('input[name="tel"]').val().trim()).replace(/\D/g, '');
+  params.created = moment().format('YYYY-MM-DDTHH:mm');
   if (!params.branch || params.branch.length <= 0) {
     alert('지점을 선택해주세요.');
     return false;
