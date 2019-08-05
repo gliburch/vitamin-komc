@@ -71,7 +71,7 @@ app.content.get({
   //
   var markupSrc = [
     '<h2>' + title + '</h2>',
-    '<time datetime="' + created + '">' + created + '</time>',
+    '<time datetime="' + created + '">' + moment(created).format('YYYY-MM-DD HH:mm') + '</time>',
     '<hr>',
     '<div>' + content + '</div>'
   ];
