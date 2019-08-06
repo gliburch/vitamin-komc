@@ -68,26 +68,25 @@ permalink: /digestive-organ/phlegm
     <img src="/assets/icon-up-bowels.svg" alt="">
     장UP
   </h3>
-  <p></p>
+  <p>담적으로 인한 문제가 온몸에 퍼지는 것을 막기 위해 장 건강을 개선할 필요가 있습니다. 담적과 장누수는 밀접하게 연관되어 전신 건강을 나쁘게 하기 때문입니다. 비타민한의원의 장up을 통해 더 큰 문제를 예방해야합니다.</p>
 </div>
 <div class="content-iconcard">
   <h3>
     <img src="/assets/icon-up-stomach.svg" alt="">
     위UP
   </h3>
-  <p>건강한 자율신경계와 장을 통해 위장도 빠르게 회복 가능합니다. 고질적인, 낫지 않는다고 생각했던 만성 위염에서 벗어나보세요.</p>
+  <p>고질적인 담적을 풀어내기 위해 다양한 위장 기능 개선 치료가 필요합니다. 위up을 통해 담적을 마무리지어보세요.</p>
 </div>
 <br><br>
-<h3 style="text-align:center">만성 위염, 이렇게 해결합니다</h3><br><br>
+<h3 style="text-align:center">담적, 이렇게 해결합니다</h3><br><br>
 <h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
 {%- include examination-items.html item="organic-acid" -%}
 {%- include examination-items.html item="hrv" -%}
-{%- include examination-items.html item="hair-tissue-mineral" -%}
 {%- include examination-items.html item="abdominal-allergy" -%}
 {%- include examination-items.html item="microbe" -%}
 
 <hr>
-{%- include medicine-care.html subject="위장 건강 회복의 <strong>핵심, 한약</strong>" content="만성 위염은 병의 진행 정도에 따라 다양한 모습을 나타나냅니다. <strong>표재성, 위축성, 장상피화생 등 현재 상태에 맞는 정확한 처방</strong>이 치료의 핵심이라 할 수 있습니다. 비타민 한의원에서는 일률적으로 대량 만들어서 사용하는 처방이 아닌, 환자의 상태에 맞춘 나만의 맞춤 처방을 활용하고 있습니다. 짧은 처방 주기를 통해 몸 상태가 나아지면 약도 따라서 계속 변화시켜 병을 끝까지 추적하고 치료합니다." -%}
+{%- include medicine-care.html subject="위장 건강 회복의 <strong>핵심, 한약</strong>" content="담적은 타고난 체질과 병의 진행 정도에 따라 다양한 모습을 나타나냅니다. 단순히 담적을 깨부수는 것 뿐만 아니라 <strong>위장 기능 개선을 위한 정확한 처방</strong>이 치료의 핵심이라 할 수 있습니다. 비타민 한의원에서는 일률적으로 대량 만들어서 사용하는 처방이 아닌, 환자의 상태에 맞춘 나만의 맞춤 처방을 활용하고 있습니다. 짧은 처방 주기를 통해 몸 상태가 나아지면 약도 따라서 계속 변화시켜 병을 끝까지 추적하고 치료합니다." -%}
 
 <hr>
 
