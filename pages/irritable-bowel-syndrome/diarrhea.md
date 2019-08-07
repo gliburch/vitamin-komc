@@ -7,7 +7,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
 ---
 
 <h2 class="content-heading">
-  <small>설사형 가스형 장명/실금 통증형</small>
+  <small>-</small>
   <strong>과민대장증후군</strong> 설사형
 </h2>
 
@@ -16,7 +16,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
 </figure>
 
 <h3 style="text-align:center">언제 찾아올지 모르는 공포, 설사</h3>
-<p>과민대장증후군은 내시경을 봐도, CT를 찍어도 특별한 이상이 보이지 않는데 장 질환 증상이 만성적으로 이어지는 것을 말합니다. 설사가 나타나는 모습도 다양해서 심한 복통과 함께 하루에도 수차례 설사하거나, 버스 지하철 등 대중교통을 이용할 때 심해지는 분들, 시험기간이나 발표할 때 안좋아지는 분들 등 여러가지로 나타나죠. 특히 오랜 설사로 고통받고 있는데 검사해도 정상이라고만 하고 크론병같은 만성 염증성 장질환을 의심할 정도로 힘들지만 뾰족한 수 없이 지사제로만 버티는 분들이 많으십니다.</p>
+<p>과민대장증후군은 <b>내시경을 봐도, CT를 찍어도 특별한 이상이 보이지 않는데 장 질환 증상이 만성적으로 이어지는 것</b>을 말합니다. 설사가 나타나는 모습도 다양해서 심한 복통과 함께 하루에도 수차례 설사하거나, 버스 지하철 등 대중교통을 이용할 때 심해지는 분들, 시험기간이나 발표할 때 안좋아지는 분들 등 여러가지로 나타나죠. 특히 오랜 설사로 고통받고 있는데 검사해도 정상이라고만 하고 크론병같은 만성 염증성 장질환을 의심할 정도로 힘들지만 뾰족한 수 없이 지사제로만 버티는 분들이 많으십니다.</p>
 
 <div class="content-caution">
   <h3>
@@ -32,7 +32,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
   </p>
 </div>
 <h3 style="text-align:center">
-  의학에서 바라본 과민 대장 증후군의 원인</h3>
+  통합의학에서 바라본 과민 대장 증후군의 원인</h3>
 <div class="content-sculptpost">
   <blockquote>
     <strong>장내 세균문제</strong><br>
