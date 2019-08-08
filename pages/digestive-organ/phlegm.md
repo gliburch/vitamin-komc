@@ -12,7 +12,7 @@ permalink: /digestive-organ/phlegm
 </h2>
 
 <figure>
-  <img src="/assets/20190625085659.jpg" alt="">
+  <img src="/assets/20190808_01.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">잘 낫지 않는 위장병의 원인, 담적</h3>
