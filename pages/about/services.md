@@ -28,7 +28,7 @@ permalink: /about/services
 </figure>
 -->
 
-<iframe width="1920" height="1080" src="https://www.youtube.com/embed/tnwBeaEuC8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/tnwBeaEuC8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div class="content-sculptpost">
   <h3>비타민 한의원이 특별한 이유</h3>
