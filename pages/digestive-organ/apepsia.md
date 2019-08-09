@@ -91,7 +91,7 @@ permalink: /digestive-organ/apepsia
   <p>건강한 자율신경계와 장을 통해 위장도 빠르게 회복 가능합니다. 고질적인, 낫지 않는다고 생각했던 기능성 소화불량에서 벗어나보세요.</p>
 </div>
 <br>
-<h3>위, 뇌가 장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
+<h3>장, 뇌가 위장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
 <br>
 <iframe width="100%" src="https://www.youtube.com/embed/PaXHAPyaoeo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
