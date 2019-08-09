@@ -62,8 +62,6 @@ permalink: /irritable-bowel-syndrome/diarrhea
 
 <h3 style="text-align:center">장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
 
-<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <figure>
   <img src="/assets/img-podium-bowels.jpg" alt="">
 </figure>
@@ -89,10 +87,15 @@ permalink: /irritable-bowel-syndrome/diarrhea
   </h3>
   <p>건강해진 자율신경계와 위장 기능을 토대로 장 운동을 진정시켜 규칙적이고 건강한 배변활동을 할 수 있게 도와드립니다.</p>
 </div>
-<br><br>
+<br>
+<h3>위, 뇌가 장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
+<br>
+<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
 <h3 style="text-align:center">빈번한 설사, 이렇게 해결합니다</h3>
 <br><br>
-<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
+
 {%- include examination-items.html item="organic-acid" -%}
 {%- include examination-items.html item="hrv" -%}
 {%- include examination-items.html item="hair-tissue-mineral" -%}
