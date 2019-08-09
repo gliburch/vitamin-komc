@@ -57,7 +57,7 @@ permalink: /irritable-bowel-syndrome/pain
   필수 영양소가 부족하면 피곤하고, 염증이 잘 생기거나 다양한 질환이 생길 수 있다는 것은 누구나 알고 있습니다. 과민성대장증후군도 예외가 아닌데요, 아직 직접적인 원인으로 밝혀지진 않았지만 <mark>영양소 부족이 설사나 소화불량, 변비, 복통 등의 원인이 될 수 있다</mark>는 것은 입증된 사실입니다. <b>유기산 검사를 통해 이러한 영양소 부족을 체크하고 이에 따라 알맞은 영양제를 활용</b>하여 과민성 대장 증후군의 치료를 시도할 수 있습니다
   </p>
 </div>
-<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h3 style="text-align:center">장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
 <figure>
   <img src="/assets/img-podium-bowels.jpg" alt="">
@@ -83,9 +83,13 @@ permalink: /irritable-bowel-syndrome/pain
   </h3>
   <p>건강해진 자율신경계와 위장 기능을 토대로 장 경련을 예방하고 염증을 억제하여 통증을 효과적으로 잡아줍니다.</p>
 </div>
+<br>
+<h3>위, 뇌가 장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
+<br>
+<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
-<h3 style="text-align:center">어려운 복통, 이렇게 해결합니다</h3><br><br>
+<h3 style="text-align:center">어려운 <strong>복통, 이렇게 해결합니다</strong></h3><br><br>
 <h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
 {%- include examination-items.html item="organic-acid" -%}
 {%- include examination-items.html item="hrv" -%}
