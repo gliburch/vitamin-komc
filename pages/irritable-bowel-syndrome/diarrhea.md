@@ -93,7 +93,7 @@ permalink: /irritable-bowel-syndrome/diarrhea
 <iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
-<h3 style="text-align:center">빈번한 설사, 이렇게 해결합니다</h3>
+<h3 style="text-align:center">빈번한 설사, <strong>이렇게 해결합니다</strong></h3>
 <br><br>
 
 {%- include examination-items.html item="organic-acid" -%}
