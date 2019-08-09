@@ -84,8 +84,13 @@ permalink: /digestive-organ/leaky-gut
   </h3>
   <p>건강해진 자율신경계와 위장 기능을 토대로 장 점막을 회복하여 장 누수 증후군에서 해방될 수 있습니다.</p>
 </div>
+<br>
+<h3>위, 뇌가 장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
+<br>
+<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br><br>
-<h3 style="text-align:center">장 누수 증후군, 이렇게 해결합니다</h3>
+<h3 style="text-align:center">장 누수 증후군, <strong>이렇게 해결합니다</strong></h3>
 <br><br>
 <h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
 {%- include examination-items.html item="organic-acid" -%}
