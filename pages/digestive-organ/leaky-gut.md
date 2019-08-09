@@ -58,7 +58,7 @@ permalink: /digestive-organ/leaky-gut
   장 누수 증후군도 다른 장 질환과 마찬가지로 식단이 중요합니다. <b>화학 조미료, 농약, 밀가루, 약물</b> 등에 의해서 장 누수 증후군이 시작되거나 악화되는 경우가 많기 때문에 치료에 있어 식단 관리는 필수적이라 할 수 있죠. 이를 위해 바이플랜에선 <b>영양사의 1:1 맞춤 식단 관리를 제공</b>하고 있습니다.
   </p>
 </div>
-<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h3 style="text-align:center">장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
 <figure>
   <img src="/assets/img-podium-bowels.jpg" alt="">
