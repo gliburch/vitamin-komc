@@ -9,6 +9,9 @@
 .swiper-slide {
   position:relative;
   background:#fff;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:50% 20%;
   font-size:18px;
   text-align:center;
 }
@@ -25,6 +28,14 @@
 .swiper-slide img {
   display:block;
   width:100%;
+}
+@media (min-width:801px) {
+  .swiper-slide {
+    height:600px;
+  }
+  .swiper-slide img {
+    display:none;
+  }
 }
 .swiper-pagination-bullets .swiper-pagination-bullet {
   width:20px;
@@ -60,24 +71,42 @@
   font-size:12px;
   letter-spacing:-1px;
 }
+@media (min-width:801px) {
+  .slide-message {
+    margin:-100px 0 0;
+  }
+  .slide-message h2 {
+    font-size:24px;
+  }
+  .slide-message h2 strong {
+    font-size:80px;
+  }
+  .slide-message p {
+    margin-top:20px;
+    font-size:18px;
+  }
+}
 </style>
 <div class="swiper-container">
   <div class="swiper-wrapper">
-    <div class="swiper-slide dimmed" onclick="location.href = '/irritable-bowel-syndrome/gas'">
+    <div class="swiper-slide dimmed" style="background-image:url(/assets/img-slide1.jpg)"
+      onclick="location.href = '/irritable-bowel-syndrome/gas'">
       <img src="/assets/img-slide1.jpg" alt="">
       <div class="slide-message">
         <h2>비타민한의원의 특별한 <strong>위·대장클리닉</strong></h2>
         <p>한의학, 기능의 학적 접근을 통해   근본적인 원인을 해결합니다</p>
       </div>
     </div>
-    <div class="swiper-slide dimmed" onclick="location.href = '/adolescence/physical'">
+    <div class="swiper-slide dimmed" style="background-image:url(/assets/img-slide2.jpg)"
+      onclick="location.href = '/adolescence/physical'">
       <img src="/assets/img-slide2.jpg" alt="">
       <div class="slide-message">
         <h2>철저한 관리 <strong>수험생 클리닉</strong></h2>
         <p>건강이 곧 성적입니다.</p>
       </div>
     </div>
-    <div class="swiper-slide" onclick="location.href = '/articles?id=eK7sgwuinBoGvNizg56c'">
+    <div class="swiper-slide" style="background-image:url(/assets/d100slide.png)"
+      onclick="location.href = '/articles?id=eK7sgwuinBoGvNizg56c'">
       <img src="/assets/d100slide.png" alt="">
       <div class="slide-message">
         <h2></h2>
