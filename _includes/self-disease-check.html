@@ -23,9 +23,37 @@
   border:none;
   background-color:#fff;
   color:#f4512c;
+  cursor:pointer;
+}
+@media (min-width:801px) {
+  .self-disease-check {
+    height:auto;
+    padding:25px;
+  }
+  .self-disease-check h3 {
+    font-size:40px;
+    text-align:center;
+  }
+  .self-disease-check h3 br {
+    display:none;
+  }
+  .self-disease-check button {
+    display:block;
+    position:static;
+    right:auto;
+    bottom:auto;
+    width:300px;
+    height:40px;
+    margin:20px auto 0;
+    padding:0;
+    font-size:18px;
+  }
 }
 </style>
 <div class="self-disease-check">
-  <h3>난<br>어떤 질환일까?</h3>
+  <h3>
+    난<br>
+    어떤 질환일까?
+  </h3>
   <button type="button" onclick="alert('기능이 곧 공개됩니다')">나의질환 알아보기</button>
 </div>

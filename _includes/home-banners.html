@@ -2,6 +2,7 @@
 <style>
 .home-banners {
   margin:25px;
+  font-size:0;
 }
 .home-banners a {
   display:block;
@@ -13,6 +14,18 @@
 .home-banners img {
   display:block;
   width:100%;
+}
+@media (min-width:801px) {
+  .home-banners {
+    max-width:1280px;
+    margin:25px auto;
+  }
+  .home-banners a {
+    zoom:1;
+    display:inline-block;
+    width:48%;
+    margin:30px 1% 0;
+  }
 }
 </style>
 <h3 style="text-align:center"><strong>비타민한의원</strong>의 다양한 소식들</h3>

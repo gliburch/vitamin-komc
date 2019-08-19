@@ -43,9 +43,22 @@ blockquote {
   font-size:16px;
   flex:auto;
 }
-@media (min-width:601px) {
+.home-content {
+  padding:0;
+  font-size:16px;
+  flex:auto;
+}
+@media (min-width:801px) {
+  .wrapper {
+    max-width:-webkit-calc(1280px - (30px * 2));
+    max-width:calc(1280px - (30px * 2));
+  }
   .page-content {
     width:920px;
+    margin:0 auto;
+  }
+  .home-content {
+    width:100%;
     margin:0 auto;
   }
 }
@@ -63,6 +76,16 @@ main > h3 {
   color:#313643;
   font-size:18px;
   letter-spacing:-1.4px;
+}
+@media (min-width:801px) {
+  main > h2 {
+    margin:40px 0;
+    font-size:28px;
+  }
+  main > h3 {
+    margin:40px 25px 30px;
+    font-size:24px;
+  } 
 }
 main > h3 strong {
   color:#f4512c;
@@ -488,54 +511,12 @@ main > iframe {
   margin-left:5px;
   vertical-align:-9px;
 }
-.featured-links {
-  background-color:#313643;
-  font-size:0;
-  text-align:center;
-  white-space:nowrap;
-}
-.featured-links li {
-  zoom:1;
-  display:inline-block;
-  position:relative;
-  width:20%;
-  vertical-align:middle;
-}
-.featured-links li:before {
-  content:"";
-  display:block;
-  position:absolute;
-  top:20px;
-  left:0;
-  bottom:20px;
-  width:1px;
-  background-color:rgba(216, 216, 216, 0.2);
-}
-.featured-links li:first-child:before {
-  display:none;
-}
-.featured-links li a {
-  display:block;
-  padding:12px 0;
-  color:#fff;
-}
-.featured-links li img {
-  display:block;
-  margin:0 auto 7px;
-}
-.featured-links li span {
-  display:block;
-  opacity:0.7;
-  font-size:12px;
-  font-weight:500;
-  line-height:125%;
-  letter-spacing:-0.8px;
-}
 .featured-articles {
   overflow:auto;
   width:auto;
   margin:15px 0;
   padding:0 25px;
+  font-size:0;
   text-align:center;
   white-space:nowrap;
   -webkit-overflow-scrolling:touch;
@@ -547,6 +528,7 @@ main > iframe {
   margin-right:15px;
   text-align:left;
   vertical-align:top;
+  cursor:pointer;
 }
 .featured-articles dl dt img {
   width:150px;
@@ -570,4 +552,41 @@ main > iframe {
   letter-spacing:-0.8px;
   color:#666;
   white-space:normal;
+}
+@media (min-width:801px) {
+  .featured-articles {
+    overflow:hidden;
+    max-width:1280px;
+    margin:40px auto;
+    padding:0 25px;
+    text-align:center;
+    white-space:normal;
+  }
+  .featured-articles dl {
+    width:23%;
+    margin:0 1%;
+  }
+  .featured-articles dl dt {
+    position:relative;
+    width:100%;
+    height:0;
+    padding-bottom:56.25%;
+  }
+  .featured-articles dl dt img {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+  .featured-articles dl dd {
+    margin-top:20px;
+  }
+  .featured-articles dl dd strong {
+    font-size:20px;
+  }
+  .featured-articles dl dd p {
+    margin-top:5px;
+    font-size:17px;
+  }
 }
