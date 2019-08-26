@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   기능의학검사, 소화기클리닉, 수험생클리닉, 통증치료 비타민한의원 홈페이지입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vitahani.com" # the base hostname & protocol for your site, e.g. http://example.com
-naver_analytics: s_cdf110f08fa
+naver_analytics: s_133dec3e1468
 google_analytics: UA-53073981-14
 facebook_pixel: 574121663069933
 
