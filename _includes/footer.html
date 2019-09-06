@@ -73,3 +73,7 @@
   </div>
 
 </footer>
+
+{%- if jekyll.environment == 'production' -%}
+  {%- include ad-tracking.html -%}
+{%- endif -%}
