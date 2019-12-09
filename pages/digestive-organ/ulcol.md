@@ -31,38 +31,6 @@ permalink: /digestive-organ/ulcol
     몸 여기저기 염증이 잘 생긴다
   </p>
 </div>
-<h3 style="text-align:center">장 누수 증후군의 원인</h3>
-
-
-<h3 style="text-align:center">장을 고치려면 <strong>위 UP &nbsp; 뇌UP</strong>이 필요합니다!</h3>
-<figure>
-  <img src="/assets/img-podium-bowels.jpg" alt="">
-</figure>
-<div class="content-iconcard">
-  <h3>
-    <img src="/assets/icon-up-stomach.svg" alt="">
-    위UP
-  </h3>
-  <p>장누수증후군 환자 대다수는 위장 기능이 떨어져 있습니다. 장을 치료하기 전에 위장을 먼저 치료해야합니다.</p>
-</div>
-<div class="content-iconcard">
-  <h3>
-    <img src="/assets/icon-up-brain.svg" alt="">
-    뇌UP
-  </h3>
-  <p>스트레스와 자율신경계의 비정상적인 활동이 장 투과성을 높여 문제를 유발합니다. 특히 현대인이라면 원인 치료를 위해 뇌 up 이 반드시 필요합니다.</p>
-</div>
-<div class="content-iconcard">
-  <h3>
-    <img src="/assets/icon-up-bowels.svg" alt="">
-    장UP
-  </h3>
-  <p>건강해진 자율신경계와 위장 기능을 토대로 장 점막을 회복하여 장 누수 증후군에서 해방될 수 있습니다.</p>
-</div>
-<br>
-<h3>위, 뇌가 장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
-<br>
-<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br><br>
 <h3 style="text-align:center">장 누수 증후군, <strong>이렇게 해결합니다</strong></h3>
