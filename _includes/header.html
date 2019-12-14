@@ -2,6 +2,9 @@
 .site-header {
   border:none;
 }
+.site-header .wrapper {
+  position:relative;
+}
 .site-title {
   zoom:1;
   display:inline-block;
@@ -25,6 +28,7 @@
   border:none;
   background:none;
   outline:none;
+  font-size:12px;
   cursor:pointer;
 }
 @media (min-width:801px) {
@@ -35,6 +39,11 @@
   }
   .site-title img {
     height:40px;
+  }
+  .site-header .btn-login,
+  .site-header .btn-logout {
+    top:20px;
+    font-size:16px;
   }
 }
 </style>
@@ -49,6 +58,8 @@
         {{ site.title | escape }}
       {%- endif -%}
     </a>
+    <button class="btn-login" type="button" style="display:none">로그인</button>
+    <button class="btn-logout" type="button" style="display:none">로그아웃</button>
   </div>
 
   <!--
@@ -103,9 +114,6 @@
   -->
 
   {%- include nav-pages.html -%}
-
-  <button class="btn-login" type="button" style="display:none">로그인</button>
-  <button class="btn-logout" type="button" style="display:none">로그아웃</button>
 
 </header>
 <script>

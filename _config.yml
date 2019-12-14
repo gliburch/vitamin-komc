@@ -23,6 +23,7 @@ url: "https://vitahani.com" # the base hostname & protocol for your site, e.g. h
 naver_analytics: s_133dec3e1468
 google_analytics: UA-53073981-14
 facebook_pixel: 574121663069933
+kakao_api: 003448aa4a2a24417cc828da32706bf3
 
 # Build settings
 markdown: kramdown
