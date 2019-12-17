@@ -27,30 +27,44 @@ permalink: /digestive-organ/ulcol
 <h3 style="text-align:center">궤양성대장염의 <strong>원인 별 치료 접근</strong></h3>
 <br>
 <figure style="position:relative; margin:25px">
-  <img src="/assets/20190731_01.jpg" alt="">
+  <img src="/assets/20190731_02.jpg" alt="">
 </figure>
 <h3></h3>
 <p>현대의학에서는 궤양성 대장염의 원인이 명확히 밝혀지지 않았습니다. 발병이 드물어 연구하기 까다롭기 때문이죠. 다만 서구화된 식습관이 전파되며 발병이 증가한다는 점은 식생활과 관련이 크다는 것을 시사하고 있습니다. 궤양성 대장염을 유발하는 다양한 원인과 대처법을 알아보도록 하겠습니다.</p>
 <br>
 <figure style="position:relative; margin:25px">
-  <img src="/assets/20190731_02.jpg" alt="">
+  <img src="/assets/20191217_01.jpg" alt="">
 </figure>
 <h3><strong>면역기능저하</strong></h3>
 <p>궤양성 대장염은 면역기능저하가 가장 중요한 원인이 됩니다. 만성 염증성 질환이라 면역 항진을 의심할 수도 있으나 전신쇠약, 빈혈이 유발된 허약 상황에서도 염증이 진행된다는 것은 면역이 과잉된 상황으로 설명되지 않는 부분이 많습니다. 다양한 알러지성 질환을 동반하는 경우, 감염이 자꾸 일어나는 경우라면 면역 기능을 도와주는 다양한 영양제, 한약을 적극적으로 사용하며 운동 및 수면 습관을 모두 관리해야합니다.</p><br>
+<figure style="position:relative; margin:25px">
+  <img src="/assets/20191217_02.jpg" alt="">
+</figure>
+<figure style="position:relative; margin:25px">
+  <img src="/assets/20191217_02.jpg" alt="">
+</figure>
 <h3><strong>염증과 노폐물 악순환 타입</strong></h3>
 <p>만성 염증성 질환은 끊임없이 몸 속 노폐물을 만들어 냅니다. 이런 것들이 부종, 농과 같은 형태로 나타나게 되죠. 우리 몸에서 처음엔 이런 염증상황에 잘 대처를 하다가 장기화되면서 염증에 대한 처리능력이 떨어지게 됩니다. 노폐물이 잘 빠져나가지 않고 몸에 쌓이면서 붓고 아프고 출혈이나 농을 만들어 내게 됩니다. 궤양성 대장염에서는 이런 것들이 심각한 설사, 점액변, 혈변, 빈혈 등으로 발전하게 됩니다. 따라서 비타민한의원에서는 혈액검사를 통한 염증 수치 확인, 유기산 검사를 통한 체내 노폐물과 독소를 확인하여 이러한 상황을 정확히 파악합니다. 이 후 노폐물과 독소가 확인된다면 이를 해결하기 위한 식단 관리, 노폐물 배출을 도와주는 영양제의 활용, 염증으로 인한 부종을 해결하는 한약을 활용하게 됩니다.</p>
 {%- include examination-items.html item="organic-acid" -%}
 <br>
+<figure style="position:relative; margin:25px">
+  <img src="/assets/20191217_03.jpg" alt="">
+</figure>
 <h3><strong>전신 기능 저하</strong></h3>
 <p>흔히 컨디션 저하라 불리는 상황입니다. 심한 피로감, 체력 부족, 체중 저하 등을 불러일으키는 상황으로 몸이 스스로 회복하는 능력이 떨어지면서 몸이 나아지는 관해기를 갖지 못하고 증상이 악순환 하는 경우가 해당됩니다. 여기에 출혈로 인한 심한 빈혈이 동반되면 심각한 상황에 직면하기도 합니다. 직접적으로 세포 활성도를 측정하는 BIA 검사, 스트레스와 피로 문제를 확인하는 타액호르몬검사 등을 활용하여 이러한 상황을 체크합니다. 치료는 피로를 이겨내고 체력을 도와주는 약침, 한약, 공진단 등을 사용하거나 잘 못먹어서 오는 영양소 결핍을 유기산 검사, 미네랄 검사를 통해 확인한 후 이에 따라 영양제를 활용하여 교정하고 있습니다. </p>
 {%- include examination-items.html item="hrv" -%}
 {%- include examination-items.html item="hair-tissue-mineral" -%}
 <br>
+<figure style="position:relative; margin:25px">
+  <img src="/assets/20191217_04.jpg" alt="">
+</figure>
 <h3><strong>위와 장의 기능저하 타입</strong></h3>
 <p>궤양성 대장염이 발병하기 전부터 만성 설사나 소화불량으로 고생하는 경우가 많습니다. 장내 미생물의 이상이 있거나 위장관 운동성의 저하, 소화효소 분비 이상이 복합된 경우입니다. 이럴 경우 잘 없어지지 않는 소화불량, 설사, 복통이 염증 때문인지 아니면 근원적인 위, 장의 기능저하가 문제인지를 파악하는 것이 우선입니다. 이를 위해 장내 유익균, 유해균을 면밀히 분석하는 장내 미생물 검사, 위장관 활동성을 살펴보는 체수분 분석검사 등을 활용합니다. 결과에 따라 유산균제제, 프리바이오틱스, 유해균억제제 등을 활용하며 위장관 운동성 이상을 조절하는 한약을 활용하기도 합니다.</p>
 {%- include examination-items.html item="microbe" -%}
 <br>
-
+<figure style="position:relative; margin:25px">
+  <img src="/assets/20191217_05.jpg" alt="">
+</figure>
 <h3>복합 원인과 악화 방지를 위한 치료</h3>
 <p>궤양성 대장염은 위의 원인 중 하나로만 발병하진 않습니다. 보통 2~3가지 원인이 복합되어 나타나는 경우가 많습니다. 이럴 경우 증상 방향과 과거 질병력을 고려하여 하나씩 순차적으로 치료하거나 동시에 조금씩 치료해나가도록 하고 있습니다. 또한 궤양성 대장염은 장기간 앓을 경우 대장암으로 발전하는 경우가 많기 때문에 이를 예방하기 위한 항산화 능력 보충, 미세 염증 억제를 통한 재발 방지 치료를 병행하도록 하고 있습니다.</p><br>
 
@@ -109,6 +123,6 @@ permalink: /digestive-organ/ulcol
 <h3 style="text-align:center">직접 <strong>치료 후기와 치료사례</strong>를 살펴보세요!</h3>
 <figure>
   <a href="/about/review">
-    <img src="/assets/img-goreview.jpg" alt="치료 후기와 사례 보기">
+    <img src="/assets/img-goreview_crohn.jpg" alt="치료 후기와 사례 보기">
   </a>
 </figure>
