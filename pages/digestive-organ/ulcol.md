@@ -40,9 +40,6 @@ permalink: /digestive-organ/ulcol
 <figure style="position:relative; margin:25px">
   <img src="/assets/20191217_02.jpg" alt="">
 </figure>
-<figure style="position:relative; margin:25px">
-  <img src="/assets/20191217_02.jpg" alt="">
-</figure>
 <h3><strong>염증과 노폐물 악순환 타입</strong></h3>
 <p>만성 염증성 질환은 끊임없이 몸 속 노폐물을 만들어 냅니다. 이런 것들이 부종, 농과 같은 형태로 나타나게 되죠. 우리 몸에서 처음엔 이런 염증상황에 잘 대처를 하다가 장기화되면서 염증에 대한 처리능력이 떨어지게 됩니다. 노폐물이 잘 빠져나가지 않고 몸에 쌓이면서 붓고 아프고 출혈이나 농을 만들어 내게 됩니다. 궤양성 대장염에서는 이런 것들이 심각한 설사, 점액변, 혈변, 빈혈 등으로 발전하게 됩니다. 따라서 비타민한의원에서는 혈액검사를 통한 염증 수치 확인, 유기산 검사를 통한 체내 노폐물과 독소를 확인하여 이러한 상황을 정확히 파악합니다. 이 후 노폐물과 독소가 확인된다면 이를 해결하기 위한 식단 관리, 노폐물 배출을 도와주는 영양제의 활용, 염증으로 인한 부종을 해결하는 한약을 활용하게 됩니다.</p>
 {%- include examination-items.html item="organic-acid" -%}
