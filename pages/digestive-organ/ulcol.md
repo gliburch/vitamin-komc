@@ -12,7 +12,7 @@ permalink: /digestive-organ/ulcol
 </h2>
 
 <figure>
-  <img src="/assets/20190731_03.jpg" alt="">
+  <img src="/assets/20191221_03.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center">궤양성대장염, 빠른 일상 복귀를 목표로 치료합니다</h3>
@@ -27,7 +27,7 @@ permalink: /digestive-organ/ulcol
 <h3 style="text-align:center">궤양성대장염의 <strong>원인 별 치료 접근</strong></h3>
 <br>
 <figure style="position:relative; margin:25px">
-  <img src="/assets/20190731_02.jpg" alt="">
+  <img src="/assets/20191221_04.jpg" alt="">
 </figure>
 <h3></h3>
 <p>현대의학에서는 궤양성 대장염의 원인이 명확히 밝혀지지 않았습니다. 발병이 드물어 연구하기 까다롭기 때문이죠. 다만 서구화된 식습관이 전파되며 발병이 증가한다는 점은 식생활과 관련이 크다는 것을 시사하고 있습니다. <b>궤양성 대장염을 유발하는 다양한 원인과 대처법을 알아보도록 하겠습니다</b>.</p>
