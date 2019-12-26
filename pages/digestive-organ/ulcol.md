@@ -119,7 +119,7 @@ permalink: /digestive-organ/ulcol
 
 <h3 style="text-align:center">직접 <strong>치료 후기와 치료사례</strong>를 살펴보세요!</h3>
 <figure>
-  <a href="https://staging.vitahani.com/articles?id=SBfOrFdXHqZ1LhwKwel2">
+  <a href="/articles?id=SBfOrFdXHqZ1LhwKwel2">
     <img src="/assets/img-goreview_crohn.jpg" alt="치료 후기와 사례 보기">
   </a>
 </figure>
