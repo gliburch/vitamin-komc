@@ -16,8 +16,8 @@
   {%- if jekyll.environment == 'production' and site.facebook_pixel -%}
     {%- include facebook-pixel.html -%}
   {%- endif -%}
-  <script src="https://unpkg.com/html5shiv"></script>
-  <script src="https://unpkg.com/jquery@1.11.1"></script>
-  <script src="https://unpkg.com/moment"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@1.11.1/dist/jquery.min.js"></script>
   {%- include firebase.html -%}
 </head>
