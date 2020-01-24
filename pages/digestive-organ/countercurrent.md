@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 5-위·장클리닉
 order: 1
 title: 역류성 식도염

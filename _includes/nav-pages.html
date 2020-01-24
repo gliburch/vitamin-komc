@@ -61,7 +61,11 @@
 {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 {%- if titles_size > 0 -%}
   <nav class="nav-pages">
-    {% assign mydocs = site.pages | group_by: 'category' | sort: 'name' %}
+    {%- if site.segment -%}
+      {% assign mydocs = site.pages | where_exp: 'item', 'item.segment == site.segment or item.segment == nil' | group_by: 'category' | sort: 'name' %}
+    {%- else -%}
+      {% assign mydocs = site.pages | group_by: 'category' | sort: 'name' %}
+    {%- endif -%}
     <ul>
     {% for cat in mydocs %}
     <li>

@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 3-과민대장증후군
 order: 2
 title: 가스형

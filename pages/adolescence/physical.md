@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 4-수험생클리닉
 order: 2
 title: 체력관리

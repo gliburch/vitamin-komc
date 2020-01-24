@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 5-위·장클리닉
 order: 2
 title: 소화불량

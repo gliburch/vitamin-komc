@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 4-수험생클리닉
 order: 1
 title: 긴장시험불안

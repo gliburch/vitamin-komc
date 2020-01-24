@@ -1,0 +1,18 @@
+segment: general
+title: 비타민한의원
+logo: /assets/logo-default.svg
+email: vitagn@vitahani.com
+description: >- # this means to ignore newlines until "baseurl:"
+  기능의학검사, 소화기클리닉, 수험생클리닉, 통증치료 비타민한의원 홈페이지입니다.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://vitahani.com # the base hostname & protocol for your site, e.g. http://example.com
+naver_analytics: s_133dec3e1468
+google_analytics: UA-53073981-14
+facebook_pixel: 574121663069933
+kakao_api: 003448aa4a2a24417cc828da32706bf3
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed

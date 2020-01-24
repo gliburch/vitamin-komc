@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 5-위·장클리닉
 order: 4
 title: 장누수증후군 

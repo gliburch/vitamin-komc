@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 5-위·장클리닉
 order: 6
 title: 궤양성대장염 

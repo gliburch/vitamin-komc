@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 3-과민대장증후군
 order: 4
 title: 장명/실금

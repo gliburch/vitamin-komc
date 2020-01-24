@@ -1,5 +1,6 @@
 ---
 layout: page
+segment: general
 category: 6-통증질환
 order: 1
 title: 통증질환
