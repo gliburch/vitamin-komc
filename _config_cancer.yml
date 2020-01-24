@@ -6,10 +6,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   암치료 전문 비타민한의원 홈페이지입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://cancer.vitahani.com # the base hostname & protocol for your site, e.g. http://example.com
+lang: ko_KR
 naver_analytics: null
 google_analytics: null
 facebook_pixel: null
 kakao_api: 003448aa4a2a24417cc828da32706bf3
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/ogimage.png
 
 # Build settings
 markdown: kramdown
