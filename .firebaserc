@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "vitahani-d5028"
+  },
+  "targets": {
+    "vitahani-d5028": {
+      "hosting": {
+        "cancer": [
+          "vitahani-cancer"
+        ],
+        "general": [
+          "vitahani-d5028"
+        ]
+      }
+    }
   }
 }
