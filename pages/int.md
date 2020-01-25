@@ -2,8 +2,8 @@
 layout: page
 segment: cancer
 category: 3-암센터
-order: 1
-title: 암
+order: 10
+title: 통합의학치료
 permalink: /cancer
 ---
 
