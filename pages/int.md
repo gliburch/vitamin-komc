@@ -1,7 +1,7 @@
 ---
 layout: page
 segment: cancer
-category: 3-암센터
+category: 3-한방면역치료
 order: 10
 title: 통합의학치료
 permalink: /cancer
