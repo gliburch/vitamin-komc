@@ -4,7 +4,7 @@ segment: cancer
 category: 3-한방면역치료
 order: 10
 title: 통합의학치료
-permalink: /canceri
+permalink: /canceri/int
 ---
 
 <h2 class="content-heading">
