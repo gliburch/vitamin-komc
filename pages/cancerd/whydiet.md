@@ -4,7 +4,7 @@ segment: cancerd
 category: 4-항암식단관리
 order: 10
 title: 항암식단 중요성
-permalink: /cancerd
+permalink: /cancerd/whydiet
 ---
 
 <h2 class="content-heading">
