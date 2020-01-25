@@ -4,7 +4,7 @@ segment: cancer
 category: 3-한방면역치료
 order: 20
 title: 안심한약
-permalink: /canceri
+permalink: /canceri/herb
 ---
 
 <h2 class="content-heading">
