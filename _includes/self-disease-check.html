@@ -1,17 +1,21 @@
 <style>
 .self-disease-check {
   position:relative;
-  height:85px;
-  padding:15px 25px;
+  min-height:85px;
+  margin:0 auto;
+  padding:25px;
   background-image:linear-gradient(76deg, #f4512c, #f4512c 50%, #ffb800);
+  text-align:left;
 }
-.self-disease-check h3 {
+.self-disease-check p {
   font-size:22px;
   font-weight:300;
   line-height:120%;
   letter-spacing:-2.2px;
   color:#fff;
-  text-align:left;
+}
+.self-disease-check br {
+  display:none;
 }
 .self-disease-check button {
   position:absolute;
@@ -25,17 +29,32 @@
   color:#f4512c;
   cursor:pointer;
 }
+.self-disease-check ol {}
+.self-disease-check ol li {
+  margin:25px 0;
+  padding:25px 0 0 0;
+  border-top:1px solid #fff;
+  list-style:none;
+}
+.self-disease-check ol li p {
+  margin-bottom:10px;
+}
+.self-disease-check ol li label {
+  display:block;
+  margin:5px 0;
+  color:#fff;
+  font-size:18px;
+  cursor:pointer;
+}
 @media (min-width:801px) {
   .self-disease-check {
-    height:auto;
-    padding:25px;
-  }
-  .self-disease-check h3 {
-    font-size:40px;
     text-align:center;
   }
-  .self-disease-check h3 br {
-    display:none;
+  .self-disease-check p {
+    font-size:30px;
+  }
+  .self-disease-check br {
+    display:block;
   }
   .self-disease-check button {
     display:block;
@@ -48,12 +67,136 @@
     padding:0;
     font-size:18px;
   }
+  .self-disease-check ol {
+    max-width:800px;
+    margin:0 auto;
+  }
+  .self-disease-check ol li label {
+    display:inline;
+    margin:0 5px;
+  }
 }
 </style>
 <div class="self-disease-check">
-  <h3>
-    난<br>
-    어떤 질환일까?
-  </h3>
-  <button type="button" onclick="alert('기능이 곧 공개됩니다')">나의질환 알아보기</button>
+  <div id="survey-start">
+    <p>
+      위, 장이 안좋으시지만 검사를 해봐도 뚜렷이 어떤 병인지 나오지 않거나,<br>
+      현재 어떤 질환인지 정확히 진단 받지 않으셨다면 간단한 질문을 통해 대략적인 질환을 알아볼 수 있습니다.
+    </p>
+    <button type="button" onclick="$('#survey-slide li:first').slideDown();$(this).slideUp();">나의질환 알아보기</button>
+  </div>
+  <ol id="survey-slide">
+  <li style="display:none;">
+    <p>식욕이 좋으신가요?</p>
+    <label><input type="radio" name="q-1" value="1"> 없어서 못먹는다</label>
+    <label><input type="radio" name="q-1" value="2"> 보통</label>
+    <label><input type="radio" name="q-1" value="3"> 잘 먹는 편이다</label>
+  </li>
+  <li style="display:none;">
+    <p>메스꺼움이나 구토가 있나요?</p>
+    <label><input type="radio" name="q-2" value="1"> 네</label>
+    <label><input type="radio" name="q-2" value="2"> 아니오</label>
+  </li>
+  <li style="display:none;">
+    <p>우울, 불안, 불면과 같은 문제가 있으신가요?</p>
+    <label><input type="radio" name="q-3" value="1"> 네</label>
+    <label><input type="radio" name="q-3" value="2"> 아니오</label>
+  </li>
+  <li style="display:none;">
+    <p>심한 피로감이나 체력저하로 고생하시나요?</p>
+    <label><input type="radio" name="q-4" value="1"> 네</label>
+    <label><input type="radio" name="q-4" value="2"> 아니오</label>
+  </li>
+  <li style="display:none;">
+    <p>속쓰림이 있으신가요?</p>
+    <label><input type="radio" name="q-5" value="1"> 빈속에 그런다</label>
+    <label><input type="radio" name="q-5" value="2"> 식후에 더 그런다</label>
+    <label><input type="radio" name="q-5" value="3"> 속쓰림은 없다</label>
+  </li>
+  <li style="display:none;">
+    <p>
+      목에 이물감이 느껴지거나 신물올라오거나,<br>
+      목이 쓰린 느낌이 있으신가요?
+    </p>
+    <label><input type="radio" name="q-6" value="1"> 네</label>
+    <label><input type="radio" name="q-6" value="2"> 아니오</label>
+  </li>
+  <li style="display:none;">
+    <p>대변 이상이 있으신가요?</p>
+    <label><input type="radio" name="q-7" value="1"> 무른변, 설사가 잦다</label>
+    <label><input type="radio" name="q-7" value="2"> 오랜 변비로 고생한다</label>
+    <br>
+    <label><input type="radio" name="q-7" value="3"> 변비, 설사가 왔다갔다 한다</label>
+    <label><input type="radio" name="q-7" value="4"> 대변은 크게 이상 없거나 있더라도 견딜만한 수준이다</label>
+  </li>
+  <li style="display:none;">
+    <p>다음 중 어떤 증상이 가장 힘드세요?</p>
+    <label><input type="radio" name="q-8" value="1"> 설사, 잦은 배변, 무른변</label>
+    <label><input type="radio" name="q-8" value="2"> 가스차고 답답하다</label>
+    <br>
+    <label><input type="radio" name="q-8" value="3"> 배에서 소리나거나 새는 느낌</label>
+    <label><input type="radio" name="q-8" value="4"> 배가 아프다</label>
+  </li>
+  </ol>
+  <div id="survey-result" style="display:none;">
+    결과입니당
+  </div>
 </div>
+<script>
+var answers = [];
+var answerSelections = $('input[name^="q-"]');
+answerSelections.on('change', function(event) {
+  var selectedIndex = parseInt($(this).attr('name').split('-')[1], 10) - 1;
+  var selectedValue = $(this).val();
+  // 답변 값 배열에 저장
+  answers[selectedIndex] = selectedValue;
+  // 체크한 문항 라디오 비활성화
+  $('input[name="q-' + (selectedIndex + 1) + '"]').prop('disabled', true);
+  // 결과가 도출될 수 있는 조건인지 확인
+  var resultValue = matchSurveyResult(answers);
+  if (!resultValue) {
+    // 도출 될 결과가 없으면 다음 문항으로
+    var nextQuestion = $(this).parent('label').parent('li').next('li');
+    nextQuestion.slideDown();
+    return false;
+  }
+  // 도출 될 결과가 있으면 결과 메시지 노출
+  console.log(resultValue);
+  $('#survey-result').slideDown();
+});
+function matchSurveyResult(anwsers) {
+  // MARK: 5번 문항 까지는 결과에 영향 없음
+  anwsers[0] = '*';
+  anwsers[1] = '*';
+  anwsers[2] = '*';
+  anwsers[3] = '*';
+  anwsers[4] = '*';
+  // 
+  switch(answers.join('')) {
+    case '*****1':
+      return '역류성식도염';
+    case '*****211':
+    case '*****221':
+    case '*****231':
+      return '과대증-설사형';
+    case '*****212':
+    case '*****222':
+    case '*****232':
+      return '과대증–가스형';
+    case '*****213':
+    case '*****223':
+    case '*****233':
+      return '과대증-장명/실금';
+    case '*****214':
+    case '*****224':
+    case '*****234':
+      return '과대증-복통형';
+    case '*****24':
+      return '기능성소화불량, 만성위염';
+    default:
+      return false;
+  }
+}
+</script> 
+
+
