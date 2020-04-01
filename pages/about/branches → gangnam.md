@@ -66,7 +66,7 @@ permalink: /about/branches/gangnam
 
 <h3>이진원원장 진료시간</h3>
 <p>
-  <strong style="display:inline-block; width:80px">월요일,수요일</strong>
+  <strong style="display:inline-block; width:80px">월,수요일</strong>
   10:00~19:00<br> 
   <strong style="display:inline-block; width:80px">금요일</strong>
   10:00~20:00<br>
@@ -99,9 +99,9 @@ permalink: /about/branches/gangnam
 
 <h3>유동완원장 진료시간</h3>
 <p>
-  <strong style="display:inline-block; width:80px">월요일,수요일</strong>
+  <strong style="display:inline-block; width:80px">월,수요일</strong>
   11:00~20:00<br> 
-  <strong style="display:inline-block; width:80px">화요일,목요일</strong>
+  <strong style="display:inline-block; width:80px">화,목요일</strong>
   10:00~20:00<br> 
     <strong style="display:inline-block; width:80px">금요일</strong>
   11:00~18:00<br> 
@@ -111,7 +111,7 @@ permalink: /about/branches/gangnam
 
 <h3>비타민한의원 진료시간</h3>
 <p>
-  <strong style="display:inline-block; width:80px">월요일~금요일</strong>
+  <strong style="display:inline-block; width:80px">월~금요일</strong>
   10:00~20:00<br> 
   <strong style="display:inline-block; width:80px">토요일</strong>
   10:00~14:30<br>
