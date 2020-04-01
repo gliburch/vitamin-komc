@@ -72,7 +72,6 @@ permalink: /about/branches/gangnam
   10:00~20:00<br>
   <strong style="display:inline-block; width:80px">토요일</strong>
   10:00~14:30<br>
-  <span style="color:#e02020">일요일 및 공휴일 휴진</span>
 </p>
 
 <hr>
@@ -106,7 +105,6 @@ permalink: /about/branches/gangnam
   10:00~20:00<br> 
     <strong style="display:inline-block; width:80px">금요일</strong>
   11:00~18:00<br> 
-  <span style="color:#e02020">일요일 및 공휴일 휴진</span>
 </p>
 
 <hr>
