@@ -41,6 +41,7 @@ permalink: /about/branches/gangnam
   vertical-align:4px;
 }
 </style>
+
 <h2 class="member-name">
   이진원 원장
   <small>강남점</small>
@@ -63,10 +64,57 @@ permalink: /about/branches/gangnam
   </ul>
 </div>
 
-<h3>진료 시간</h3>
+<h3>이진원원장 진료시간</h3>
+<p>
+  <strong style="display:inline-block; width:80px">월요일,수요일</strong>
+  10:00~19:00<br> 
+  <strong style="display:inline-block; width:80px">금요일</strong>
+  10:00~20:00<br>
+  <strong style="display:inline-block; width:80px">토요일</strong>
+  10:00~14:30<br>
+  <span style="color:#e02020">일요일 및 공휴일 휴진</span>
+</p>
+
+<hr>
+
+<figure>
+  <img src="/assets/img-branch-gangnam_2.jpg" alt="">
+</figure>
+
+<h2 class="member-name">
+  유동완 원장
+  <small>강남점</small>
+</h2>
+
+<div class="content-history">
+  <h3>의료진 약력</h3>
+  <ul>
+  <li>우석대 한의과대학 졸업</li>
+  <li>척추신경추나의학회 정회원</li>
+  <li>대한연부조직한의학회 수료</li>
+  <li>대한상한금궤의학회 상한의학학교 수료</li>
+  <li>전 판교보건지소 진료과장</li>
+  <li>전 이웃집한의원 진료원장</li>
+  </ul>
+</div>
+
+<h3>유동완원장 진료시간</h3>
+<p>
+  <strong style="display:inline-block; width:80px">월요일,수요일</strong>
+  11:00~20:00<br> 
+  <strong style="display:inline-block; width:80px">화요일,목요일</strong>
+  10:00~20:00<br> 
+    <strong style="display:inline-block; width:80px">금요일</strong>
+  11:00~18:00<br> 
+  <span style="color:#e02020">일요일 및 공휴일 휴진</span>
+</p>
+
+<hr>
+
+<h3>비타민한의원 진료시간</h3>
 <p>
   <strong style="display:inline-block; width:80px">월요일~금요일</strong>
-  11:00~20:00<br> 
+  10:00~20:00<br> 
   <strong style="display:inline-block; width:80px">토요일</strong>
   10:00~14:30<br>
   <span style="color:#e02020">일요일 및 공휴일 휴진</span>
