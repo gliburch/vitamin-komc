@@ -16,7 +16,7 @@
 segment: null
 title: 비타민한의원
 logo: /assets/logo-default.svg
-email: vitagn@vitahani.com
+email: vitaminhani@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
   기능의학검사, 소화기클리닉, 수험생클리닉, 통증치료 비타민한의원 홈페이지입니다.
 baseurl: "" # the subpath of your site, e.g. /blog

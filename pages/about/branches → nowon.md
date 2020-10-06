@@ -49,8 +49,8 @@ permalink: /about/branches/nowon
   <ul>
   <li>2017 MD Anderson 통합의학과정 수료</li>
   <li>상지대 한방병원 일반 수련의 과정 수료</li>
-  <li>전 희성한의원 진료원장</li>
-  <li>전 어깨동무 한의원 진료원장</li>
+  <li>前 희성한의원 진료원장</li>
+  <li>前 어깨동무 한의원 진료원장</li>
   </ul>
   <ul>
   <li>대한통합암학회</li>
@@ -61,15 +61,15 @@ permalink: /about/branches/nowon
 
 <h3>진료 시간</h3>
 <p>
-  <strong style="display:inline-block; width:80px">월수목</strong>
-  10:00~20:00<br> 
-  <strong style="display:inline-block; width:80px">화 금</strong>
-  10:00~19:00<br>
-  <strong style="display:inline-block; width:80px">토요일</strong>
-  09:00~14:00<br>
-  <strong style="display:inline-block; width:80px">점심시간</strong>
-  13:30~14:30<br>
-  <span style="color:#e02020">일요일 및 공휴일 휴진</span>
+  <strong style="display:inline-block; width:90px">월 &middot; 수 &middot; 목</strong>
+  오전 10시 ~ 오후 8시<br> 
+  <strong style="display:inline-block; width:90px">화 &middot; 금</strong>
+  오전 10시 ~ 오후 7시<br>
+  <strong style="display:inline-block; width:90px">토요일</strong>
+  오전 9시 ~ 오후 2시<br>
+  <strong style="display:inline-block; width:90px">점심시간</strong>
+  오후 1시 30분 ~ 2시 30분<br>
+  <span style="color:#e02020">일요일 &middot; 공휴일 휴진</span>
 </p>
 
 <hr>

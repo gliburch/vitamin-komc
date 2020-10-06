@@ -1,14 +1,15 @@
 ---
 layout: page
 category: 1-비타민한의원
+order: 6
 title: 공지사항
 permalink: /about/boards/notice
 ---
 
-<div class="tab">
+<!-- <div class="tab">
   <a href="{{ page.dir }}news">뉴스</a>
   <strong>공지사항</strong>
-</div>
+</div> -->
 
 <h2 class="content-heading">
   <strong>공지사항</strong>

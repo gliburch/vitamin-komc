@@ -33,8 +33,10 @@
   <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
 </div>
 <script>
-app.content.get({
-  schemaKey: 'banners'
+app.content.getByField({
+  schemaKey: 'banners',
+  field: 'display',
+  value: 'home-footer'
 }).then(function (data) {
   // 순서 조정
   var unorderedData = [];

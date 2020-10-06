@@ -43,36 +43,26 @@ permalink: /about/branches/gangnam
 </style>
 
 <h2 class="member-name">
-  이진원 원장
+  박연진 원장
   <small>강남점</small>
 </h2>
 
 <div class="content-history">
   <h3>의료진 약력</h3>
   <ul>
-  <li>경희대 한의학 박사 (동서의학 전공)</li>
-  <li>2017 MD Anderson 통합의학과정 수료 </li>
-  <li>CSIO 통합의학암아카데미 수료</li>
-  <li>CSIO 항암식단관리과정 이수</li>
-  <li>전 서울한의원 원장</li>
-  <li>전 김포제일병원 한방과장</li>
-  <li>'굿바이 과민대장증후군' 저자</li>
-  <li>'세상편한 유아식판식' 저자</li>
-  <li>'우리 아이를 위한 한의학 건강 상식' 저자</li>  
-  <li>임상연구가를 위한 한의학 연구과정 이수</li>
-  <li>임상연구 전문 인력 양성교육 이수</li>  
+  <li>경희대 한의대 석사과정(본초학 전공)</li>
+  <li>대한한방내과학회 정회원</li>
+  <li>한의기능영양학회 정회원</li>
+  <li>대한통합방제한의학회 정회원</li>
+  <li>한방비만학회 준회원</li>
+  <li>대한스포츠한의학회 정회원</li>
+  </ul>
+  <ul>
+  <li>現 비타민한의원 대표원장</li>
+  <li>前 지인한의원 진료원장</li>
+  <li>前 섬기는한의원 진료원장</li>
   </ul>
 </div>
-
-<h3>이진원원장 진료시간</h3>
-<p>
-  <strong style="display:inline-block; width:80px">월,수요일</strong>
-  10:00~19:00<br> 
-  <strong style="display:inline-block; width:80px">금요일</strong>
-  10:00~20:00<br>
-  <strong style="display:inline-block; width:80px">토요일</strong>
-  10:00~14:30<br>
-</p>
 
 <hr>
 
@@ -92,30 +82,19 @@ permalink: /about/branches/gangnam
   <li>척추신경추나의학회 정회원</li>
   <li>대한연부조직한의학회 수료</li>
   <li>대한상한금궤의학회 상한의학학교 수료</li>
-  <li>전 판교보건지소 진료과장</li>
-  <li>전 이웃집한의원 진료원장</li>
+  <li>前 판교보건지소 진료과장</li>
+  <li>前 이웃집한의원 진료원장</li>
   </ul>
 </div>
 
-<h3>유동완원장 진료시간</h3>
+<h3>진료 시간</h3>
 <p>
-  <strong style="display:inline-block; width:80px">월,수요일</strong>
-  11:00~20:00<br> 
-  <strong style="display:inline-block; width:80px">화,목요일</strong>
-  10:00~20:00<br> 
-    <strong style="display:inline-block; width:80px">금요일</strong>
-  11:00~18:00<br> 
-</p>
-
-<hr>
-
-<h3>비타민한의원 진료시간</h3>
-<p>
-  <strong style="display:inline-block; width:80px">월~금요일</strong>
-  10:00~20:00<br> 
+  <strong style="display:inline-block; width:80px">평일</strong>
+  오전 10시 ~ 오후 8시<br> 
   <strong style="display:inline-block; width:80px">토요일</strong>
-  10:00~14:30<br>
-  <span style="color:#e02020">일요일 및 공휴일 휴진</span>
+  오전 10시 ~ 오후 2시 30분<br>
+  <span style="color:#e02020">평일 &middot; 토요일 점심시간 없이 진료</span><br>
+  <span style="color:#e02020">일요일 &middot; 공휴일 휴진</span>
 </p>
 
 <hr>

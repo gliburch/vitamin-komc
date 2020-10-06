@@ -62,6 +62,7 @@ app.content.getByField({
 {%- include self-disease-check.html -%}
 
 <!-- 의학정보 -->
+<!--
 <div id="featured-studies" class="featured-articles">
   <img src="/assets/icon-loading.svg" alt="로딩중" width="40" height="40" style="display:block; margin:50px auto">
 </div>
@@ -109,6 +110,7 @@ app.content.getByField({
   });
 });
 </script>
+-->
 
 {%- include home-banners.html -%}
 

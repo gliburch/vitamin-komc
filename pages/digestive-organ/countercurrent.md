@@ -34,10 +34,7 @@ permalink: /digestive-organ/countercurrent
   </p>
 </div>
 
-<h3 style="text-align:center">역류성 식도염의 원인!</h3>
-<p>역류성 식도염은 단순히 위산이 많이 나와서 생기는 것이 아닙니다. 영상을 통해 다양한 원인을 살펴보도록 하겠습니다</p>
-
-<iframe src="https://www.youtube.com/embed/q9YgEdLcmvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 style="text-align:center">역류성 식도염의 원인</h3>
 
 <div class="content-sculptpost">
   <blockquote>
@@ -91,14 +88,9 @@ permalink: /digestive-organ/countercurrent
   </h3>
   <p>건강한 자율신경계와 장을 통해 위장도 빠르게 회복 가능합니다. 고질적인, 낫지 않는다고 생각했던 역류성 식도염에서 벗어나보세요.</p>
 </div>
-<br>
-<h3>장, 뇌가 위장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
-<br>
-<iframe width="100%" src="https://www.youtube.com/embed/PaXHAPyaoeo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br><br>
-<h3 style="text-align:center">역류성 식도염, <strong>이렇게 해결합니다</strong></h3><br><br>
-<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
+<h3 style="text-align:center">역류성 식도염, <strong>이렇게 해결합니다</strong></h3>
+<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3>
 {%- include examination-items.html item="organic-acid" -%}
 {%- include examination-items.html item="hrv" -%}
 {%- include examination-items.html item="hair-tissue-mineral" -%}

@@ -20,7 +20,7 @@ permalink: /about/trust
 <hr>
 
 <figure>
-  <img src="/assets/20190731_05.jpg" alt="">
+  <img src="/assets/20201005084655.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center"><strong>차별화된 한약 상담</strong></h3>
@@ -38,7 +38,7 @@ permalink: /about/trust
 <hr>
 
 <figure>
-  <img src="/assets/20190731_07.jpg" alt="">
+  <img src="/assets/20201005085644.jpg" alt="">
 </figure>
 
 <h3 style="text-align:center"><strong>쉽게 복용 가능한 파우치</strong></h3>

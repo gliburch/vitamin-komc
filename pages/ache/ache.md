@@ -83,7 +83,7 @@ permalink: /ache
 
 <div class="wrapper">
   <figure>
-    <img src="/assets/20190625081951.jpg" alt="">
+    <img src="/assets/20201005094000.jpg" alt="">
   </figure>
 </div>
 

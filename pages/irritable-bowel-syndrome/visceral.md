@@ -87,14 +87,8 @@ permalink: /irritable-bowel-syndrome/visceral
   </h3>
   <p>직접적인 장 운동 정상화로 가스 조절은 물론, 위 up 과 뇌 up 을 통해 더욱 치료 효과를 강하고 오래 지속되게 합니다.</p>
 </div>
-<br>
-<h3>위, 뇌가 장에 미치는 영향 <strong>영상으로 알아보기</strong></h3>
-<br>
-<iframe width="100%" src="https://www.youtube.com/embed/YPAdKExd0I0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br><br>
-<h3 style="text-align:center">장 문제, <strong>이렇게 해결합니다</strong></h3><br><br>
-<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
+<h3 style="text-align:center">장 문제, <strong>이렇게 해결합니다</strong></h3>
+<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3>
 {%- include examination-items.html item="organic-acid" -%}
 {%- include examination-items.html item="hrv" -%}
 {%- include examination-items.html item="microbe" -%}

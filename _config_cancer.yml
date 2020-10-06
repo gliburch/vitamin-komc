@@ -1,7 +1,7 @@
 segment: cancer
 title: 비타민한의원 암치료
 logo: /assets/logo-default.svg
-email: vitagn@vitahani.com
+email: vitaminhani@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
   암치료 전문 비타민한의원 홈페이지입니다.
 baseurl: "" # the subpath of your site, e.g. /blog

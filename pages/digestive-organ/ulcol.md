@@ -61,7 +61,7 @@ permalink: /digestive-organ/ulcol
 {%- include examination-items.html item="microbe" -%}
 <br>
 <figure style="position:relative; margin:25px">
-  <img src="/assets/20191217_05.jpg" alt="">
+  <img src="/assets/20201005093100.jpg" alt="">
 </figure>
 <h3>복합 원인과 악화 방지를 위한 치료</h3>
 <p>궤양성 대장염은 위의 원인 중 하나로만 발병하진 않습니다. 보통 <b>2~3가지 원인이 복합되어 나타나는 경우가 많습니다.</b> 이럴 경우 증상 방향과 과거 질병력을 고려하여 하나씩 순차적으로 치료하거나 동시에 조금씩 치료해나가도록 하고 있습니다. 또한 궤양성 대장염은 장기간 앓을 경우 <mark>대장암으로 발전하는 경우가 많기 때문에 이를 예방하기 위한 항산화 능력 보충, 미세 염증 억제를 통한 재발 방지 치료를 병행</mark>하도록 하고 있습니다.</p><br>

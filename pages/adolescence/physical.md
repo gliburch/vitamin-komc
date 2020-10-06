@@ -66,17 +66,14 @@ permalink: /adolescence/physical
 </div>
 
 <h3 style="text-align:center">
-  <big>잠깐!</big><br>
   밥도 잘 먹고 속 안좋은 것도 아닌데,<br>위와 장이 왜 중요할까요?
 </h3>
-<iframe width="100%" src="https://www.youtube.com/embed/u7IgK6yqfG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p>두뇌 기능 향상에 중요한 것이 많이 있겠지만, 그 중 핵심은 <strong>적절한 영양 공급과 독소 제거</strong>입니다. 적절한 영양 공급은 위장이 잘 움직이고 혈류를 과도하게 뺏어가지 않아야 가능한 일입니다. 속이 안좋으면 식곤증이 오는 것처럼 위장에 이상이 있으면 혈액 순환을 방해하여 두뇌에 영양, 산소 공급이 부족해질 수 있습니다.<br>
 두뇌에 영향을 주는 독소, 노폐물은 대장 기능과 관련이 많습니다. 장 기능이 떨어져 장누수가 일어나면 직접적으로 두뇌에 독소가 쌓이게 되고 두뇌 활동의 노폐물은 배변 활동을 통해 처리되기도 하기 때문이죠. 그 외에 정서, 호르몬 등 주고 받는 영향이 매우 커서 장이 제 2의 두뇌라고까지 이야기하기도 한답니다.
 </p>
 
-<br><br>
-<h3 style="text-align:center">공부체력, 이렇게 강화합니다</h3><br><br>
-<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3><br>
+<h3 style="text-align:center">공부체력, 이렇게 강화합니다</h3>
+<h3><strong>다양한 기능의학검사</strong>로 정확한 문제 찾기</h3>
 {%- include examination-items.html item="organic-acid" -%}
 {%- include examination-items.html item="hrv" -%}
 {%- include examination-items.html item="microbe" -%}
