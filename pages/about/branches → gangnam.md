@@ -64,6 +64,7 @@ permalink: /about/branches/gangnam
   </ul>
 </div>
 
+<!--
 <hr>
 
 <figure>
@@ -98,6 +99,7 @@ permalink: /about/branches/gangnam
 </p>
 
 <hr>
+-->
 
 <h3>오시는 길</h3>
 <p>
